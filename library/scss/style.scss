@@ -1,0 +1,723 @@
+/*! Made with Bones: http://themble.com/bones :) */
+
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+
+Helpful articles on Sass file organization:
+http://thesassway.com/advanced/modular-css-naming-conventions
+
+******************************************************************/
+
+/*********************
+IMPORTING PARTIALS
+These files are needed at the beginning so that we establish all
+our mixins, functions, and variables that we'll be using across
+the whole project.
+*********************/
+
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+
+// Sass variables
+@import "partials/variables";
+
+// typography
+@import "partials/typography";
+
+// Sass functions
+@import "partials/functions";
+
+// import mixins
+@import "partials/mixins";
+
+// the grid
+@import "partials/grid";
+
+/*********************
+IMPORTING MODULES
+Modules are reusable blocks or elements we use throughout the project.
+We can break them up as much as we want or just keep them all in one.
+I mean, you can do whatever you want. The world is your oyster. Unless
+you hate oysters, then the world is your peanut butter & jelly sandwich.
+*********************/
+
+// alert boxes
+@import "modules/alerts";
+
+// buttons
+@import "modules/buttons";
+
+// forms (inputs & labels)
+@import "modules/forms";
+
+
+/*********************
+BASE (MOBILE) SIZE
+This are the mobile styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*********************/
+
+// styles in base.scss
+@import "breakpoints/base";
+
+/*********************
+LARGER MOBILE DEVICES
+This is for devices like the Galaxy Note or something that's
+larger than an iPhone but smaller than a tablet. Let's call them
+tweeners.
+*********************/
+@media only screen and (min-width: 481px) {
+	// styles in 481up.scss
+	@import "breakpoints/481up";
+} // end of media query
+
+/*********************
+TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+@media only screen and (min-width: 768px) {
+	// styles in 768up.scss
+	@import "breakpoints/768up";
+}   // end of media query
+
+/*********************
+DESKTOP
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*********************/
+@media only screen and (min-width: 1030px) {
+	// styles in 1030up.scss
+	@import "breakpoints/1030up";
+}   // end of media query
+
+/*********************
+LARGE VIEWING SIZE
+This is for the larger monitors and possibly full screen viewers.
+*********************/
+@media only screen and (min-width: 1240px) {
+	// styles in 1240up.scss
+	@import "breakpoints/1240up";
+} // end of media query
+
+/*********************
+RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution. You can also create a media
+query for retina AND a certain size if you want. Go Nuts.
+*********************/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+	// styles in 2x.scss
+	@import "breakpoints/2x";
+} // end of media query
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+@media print {
+	// styles in print.scss
+	@import "partials/print";
+}
+
+
+
+// ............... Main Styling for Skymouse ................
+
+html {
+	overflow: hidden;
+}
+
+body {
+	background-color: white;
+	overflow: hidden;
+}
+
+section {
+	position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+
+// ............... Parallax Layer Parts ................
+
+	%px-layer {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+  	}
+
+	.px-fore {
+		@extend %px-layer;
+		-webkit-transform: translateZ(90px) scale(.7);
+		transform: translateZ(90px) scale(.7);
+		z-index: 1;
+	}
+
+	.px-base {
+		@extend %px-layer;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		-o-transform: translateZ(0);
+		z-index: 4;
+	}
+
+	.px-back {
+		@extend %px-layer;
+		-webkit-transform: translateZ(-300px) scale(2);
+		transform: translateZ(-300px) scale(2);
+		-moz-transform: translateZ(-300px) scale(2);
+		-o-transform: translateZ(-300px) scale(2);
+		z-index: 3;
+	}
+
+	.px-deep {
+		@extend %px-layer;
+		-webkit-transform: translateZ(-600px) scale(3.5);
+		transform: translateZ(-600px) scale(3.5);
+		-moz-transform: translateZ(-600px) scale(3.5);
+		-o-transform: translateZ(-600px) scale(3.5);
+		z-index: 0;
+	}
+
+// ............... Universal Header ..................
+
+.lblue {
+		background-color: $lblue;
+	}
+
+.dblue {
+		background-color: $dblue;
+	}
+
+.orange {
+		background-color: $orange;
+	}
+
+.gray {
+		background-color: $gray;
+	}
+
+.cheese {
+		background-color: $cheese;
+	}
+
+.header {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	display: block;
+	position: relative;
+	height: 100vh;
+	border-bottom: 30px solid $lblue;
+
+	.bg-image { 
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+		-webkit-transform: translateZ(-300px) scale(2);
+		transform: translateZ(-300px) scale(2);
+		z-index: -10;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+    	overflow: hidden;
+	}
+
+	#inner-header {
+		z-index: 999;
+		position: absolute;
+		width: 100%;
+
+		img {
+			width: 15%;
+			position: absolute;
+			top: 20px;
+			left: 40px;
+		}
+
+		nav ul li a {
+			@extend %btn;
+		}
+
+		#searchicon, #menu-burger {
+			@extend %btn;
+			font-size: 1.8em;
+		}
+	}
+
+	div.hero {
+	   text-align: center;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+
+       p {
+       	font-size: 2em;
+       	min-width: 20%;
+       }
+	}
+
+	> a {	
+		text-align: center;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+		img {
+			width: 20px;
+			display: block;
+		}
+	}
+}
+
+#container {
+	height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    scroll-behavior: smooth;
+}
+
+#container #page {
+	
+// .......................................................
+// ............... SECTION #1 THE PROMISE ..................
+// .......................................................
+
+
+	#promise {
+		z-index: -5;
+
+		aside.px-fore {
+			width: 35%;
+			z-index: 4;
+			right: auto;
+			left: 250px;
+			top: 150px;
+
+			@media (max-width: 768px) {
+    			left: 20%;
+    			width: 40%
+    		} 
+
+    		@media (max-width: 481px) {
+    			top: 10%;
+    			left: 10%;
+    			width: 60%;
+    		}
+
+			.content {
+				width: 100%;
+				color: white;
+			}
+		}
+
+		div.terrain {
+			z-index: 3;
+			background-image: url(../images/bg/terrain.png);
+			background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		//overflow: hidden;
+		}
+
+		div.sky-cheese {
+			z-index: 2;
+			background-image: url(../images/cheese.svg);
+			width: 250px;
+			position: absolute;
+			right: -5%; 
+			top: 200px; 
+			left: auto; 
+			bottom: 0;
+			background-repeat: no-repeat;
+		}
+
+		div.sky {
+			z-index: 0;
+			background-image: url(../images/bg/space.jpg);
+			background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		//overflow: hidden;	
+        }
+	}
+
+// .......................................................
+// ............... SECTION #2 THE PROCESS ..................
+// .......................................................
+
+	#process {
+	    height: auto;
+    	z-index: 3;
+    	background-color: $dblue;
+    	background-image: url(../images/patterns/dots.svg);
+	    background-size: .5%;
+    	border-top: 30px solid $lblue;
+    	padding: 20px;
+
+    	@media (max-width: 768px) {
+    		height: auto;
+    	}
+
+    	div.brand-experience {
+    		margin: 0 auto;
+    		text-align: center;
+    		height: 50%;
+
+    		@media (max-width: 768px) {
+    			padding: 10%;
+    		}
+
+    		p {
+    			margin: 0 auto;
+    			width: 45%;
+    			text-align: center;
+    			font-size: 2em;
+
+    			@media (max-width: 768px) {
+    			width: 100%;
+    		}
+    		}
+
+    	}
+
+    	aside {
+    		float: left;
+    		width: 33.33%;
+    		margin: 0 auto;
+    		padding: 20px;
+
+    		@media (max-width: 768px) {
+    			float: none;
+    		}
+    		
+	    	div {
+	    		text-align: center;
+	    	}
+
+	    	.story {
+	    		
+	    	}
+
+	    	.design {
+	    		
+	    	}
+
+	    	.function {
+	    		
+	    	}
+    	}
+	}
+
+// .......................................................
+// ............... SECTION #3 The PROOF ..................
+// .......................................................
+
+	#proof {
+    	z-index: 5;
+    	border-top: 30px solid $lblue;	
+
+		aside {
+			text-align: center;
+			height: 100%;
+			width: 25%;
+			float: left;
+
+			@media (max-width: 1030px) {
+				width: 50%;
+				height: 50%;
+			}
+
+			div {
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+
+				a.btn {
+    				@extend %btn;
+    				font-family: $serif;
+    				display: block;
+    				margin: 25px 70px;
+
+    				@media (max-width: 768px) {
+    					margin: 0;
+    				}
+    			}
+			}
+
+			div.motion {
+				background-image: url(../images/bg/motion-bg.png);
+				@extend %opacity;
+    		}
+    		div.audio {
+				background-image: url(../images/bg/audio-bg.png);
+				@extend %opacity;
+			}
+    		div.design {
+				background-image: url(../images/bg/design-bg.png);
+				@extend %opacity;
+    		}
+    		div.development{
+				background-image: url(../images/bg/dev-bg.png);
+				@extend %opacity;
+    		}	
+    	}
+
+    	img {
+    		width: 40%;
+    	}
+
+	    .our-work {
+	    	display: block;
+	    	width: 100%;
+	    	background-color: #efefef;
+	    	text-align: right;
+	    	padding: 20px 50px;
+
+	    	@media (max-width: 600px) {
+				text-align: center;
+				padding: 20px 0;
+			}
+
+	    	a {
+	    		@extend %no-border-button;
+	    		margin-top: 15px;
+	    	}
+	    }
+	} //End Section Proof
+
+
+// ..........................................................
+// ............... SECTION #3 The PROPOSAL ..................
+// ..........................................................
+
+	#proposal {
+    	z-index: 2;
+    	border-top: 30px solid $lblue;
+    	background-color: $dblue;
+
+    	@media (max-width: 768px) {
+    		height: auto;
+    	}
+
+    	aside {
+    		width: 50%;
+    		padding: 150px 5%;
+    		height: 100%;
+    		float: left;
+    		text-align: center;
+
+    		@media (max-width: 768px) {
+    			float: none;
+    			width: 100%;
+    			height: auto;
+    			padding: 5% 5%;
+    			padding-top: 100px;
+    		}
+
+    		p {
+    			text-align: left;
+    			padding: 20px;
+    		}
+
+    		img {
+    			margin: 0 auto;
+    			display: block;
+
+    			@media (max-width: 768px) {
+    				display: none;
+    			}
+    		}
+
+    		form {
+    			margin: 0px auto;
+    			max-width: 480px;
+    			min-width: 300px;
+    			text-align: center;
+
+    			label {
+    				display: none;
+    			}
+
+    			input[type="text"] {
+    				width: 45%;
+
+    			}
+
+    			button[type=submit] {
+    				background-color: transparent;
+    				border:none;
+					width: 250px;
+					color: transparent;
+					margin: 0 auto;
+					height: 100px;
+					display: inline-block;
+    			}
+
+    			img:hover {
+    			}
+    		}
+
+    	}
+	}
+} // -- END #Container
+
+// .......................................................
+// ............... SECTION #3 The FOOTER ..................
+// .......................................................
+
+#container footer.footer {
+	border-top: 20px solid white;
+	background-color: $dblue;
+	z-index: 6;
+	position: relative;
+
+	@media (max-width: 481px) {
+    			display: none;
+    		}
+
+	div#inner-footer.wrap.cf {
+
+		padding: 20px 0;
+
+		@media (max-width: 768px) {
+			text-align: center;
+		}
+		
+		img.footer-logo {
+			width: 50px;
+			text-align: center;
+	        position: absolute;
+	        left: 50%;
+	        top: 50%;
+	        -webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	        -o-transform: translate(-50%, -50%);
+	        -moz-transform: translate(-50%, -50%);
+
+	        @media (max-width: 768px) {
+				display: none;
+			}
+	    }
+
+		nav.footer {
+			background-color: $dblue;
+			float: right;
+
+			@media (max-width: 768px) {
+				float: none;
+			}
+
+
+			ul {
+				margin: 0;
+				text-align: right;
+				display: inline-block;
+
+				li {
+					display: inline-block;
+					text-align: right;
+				
+					a {
+						@extend %btn;
+						position: relative;
+						display: inline-block;
+						font-family: $serif;
+						color: $cheese;
+						font-weight: 300;
+						font-size: .7em;
+					}
+
+					a.btn {
+						text-transform: uppercase;
+						color: white;
+					}
+				}
+			}	
+		}
+
+		div.info {
+
+			ul {
+				margin: 0;
+				text-align: center;
+				display: inline-block;
+
+				li {
+					display: inline-block;
+					text-align: center;
+				
+					a {
+						@extend %btn;
+						position: relative;
+						display: inline-block;
+						font-family: $serif;
+						color: $cheese;
+						font-weight: 300;
+						font-size: .7em;
+					}
+
+					a.btn {
+						text-transform: uppercase;
+						color: white;
+					}
+				}
+			}
+
+			p {
+				display: inline-block;
+				margin: 5px;
+				padding: 5px 10px;
+				font-size: .8em;
+			}
+		}
+
+	}
+}
+
+/*********************
+PAGE SPECIFIC STYLING
+*********************/
+
+//Styling for a single blog post
+@import "partials/pages/blog-post";
+
+//Styling for a single blog post
+@import "partials/pages/about";
+
+//Styling for a the "our-work" page
+@import "partials/pages/our-work";
+
+//Styling for a the "contact" page
+@import "partials/pages/contact";

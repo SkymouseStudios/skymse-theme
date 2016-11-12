@@ -1,0 +1,56 @@
+/******************************************************************
+Stylesheet: Sass Functions
+******************************************************************/
+
+// black
+@function black($opacity) {
+    @return rgba(0,0,0,$opacity);
+}
+
+// white
+@function white($opacity) {
+    @return rgba(255,255,255,$opacity);
+}
+
+// SKYMOUSE COLORS
+
+// Light Blue
+@function lb($opacity) {
+    @return rgba(112,193,219,$opacity);
+}
+
+// Dark Blue
+@function db($opacity) {
+    @return rgba(92,158,173,$opacity);
+}
+
+// Grey
+@function grey($opacity) {
+    @return rgba(129,127,130,$opacity);
+}
+
+// Orange
+@function oj($opacity) {
+    @return rgba(249,156,28,$opacity);
+}
+
+// Cheese
+@function cheese($opacity) {
+    @return rgba(252,208,161,$opacity);
+}
+
+/*********************
+Example:
+width: cp(650px, 1000px);
+or
+width: calc-percent(650px, 1000px);
+both compile to:
+width: 65%;
+*********************/
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+@function cp($target, $container) {
+  @return calc-percent($target, $container);
+}

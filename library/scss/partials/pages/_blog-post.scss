@@ -1,0 +1,74 @@
+/* ............................................. */
+/* ...............PAGE: BLOG POST ...............*/
+/* ............................................. */
+
+#BlogThumbnail {
+	width: 33.3%;
+	height: 300px;
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 50px;
+	text-align: center;
+	transition: .5s;
+	
+
+	&:hover {
+		background-size: 170%;
+		transition: .5s;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+	h4 {
+		letter-spacing: normal;
+	}
+
+}
+
+/* ............................................. */
+/* ...............POST: BLOG POST ...............*/
+/* ............................................. */
+
+section.entry-content {
+	 height: auto;
+}
+
+div#container div#content {
+	-webkit-transform: translateZ(0px) scale(1);
+	transform: translateZ(0px) scale(1);
+	height:auto;
+}
+
+main #main .main {
+
+	h2 {
+		color: black;
+	}
+
+	float: none;
+	margin: 0 auto;
+	z-index: 5px;
+	display: block;
+}
+
+.entry-content blockquote {
+	font-size: 2.1em;
+	font-weight: 800;
+	line-height: 2em;
+	font-style: normal;
+	margin: 20px 0;
+	padding: 20px;
+	border: none;
+	border-top: .5px solid #efefef;
+	border-bottom: .5px solid #efefef;
+
+	p {
+		padding: 0;
+		margin: 0;
+		color: $dblue !important;
+	}
+}
