@@ -117,8 +117,8 @@
 					<p>Here are some quick links of stuff to do around the site!</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
-					<a class="blue-btn-2" title="Check Out Our Tutorials!">Tutorials</a>
-					<a class="blue-btn-2" title="Read Something on Our Blog!">Blog</a>
+					<a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
+					<a class="blue-btn-2" title="Read Something on Our Blog!" href="/index.php/blog">Blog</a>
 				</aside>
 
 				<aside>

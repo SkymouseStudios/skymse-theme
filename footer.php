@@ -54,10 +54,10 @@
 
 					<ul>
 						<li>
-							<a title="Contact Skymouse" href="#">Privacy</a>
+							<a title="Privacy" href="/index.php/privacy">Privacy</a>
 						</li>
 						<li>
-							<a title="Tutorials" href="#">Help</a>
+							<a title="Help" href="/index.php/help">Help</a>
 						</li>
 					</ul>	
 					</div>
