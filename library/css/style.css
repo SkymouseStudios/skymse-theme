@@ -2651,6 +2651,9 @@ section {
     .header div.hero p {
       font-size: 2em;
       min-width: 20%; }
+      @media (max-width: 768px) {
+        .header div.hero p {
+          font-size: 1em; } }
   .header > a {
     text-align: center;
     position: absolute;
@@ -2686,7 +2689,6 @@ section {
         width: 40%; } }
     @media (max-width: 481px) {
       #container #page #promise aside.px-fore {
-        top: 10%;
         left: 10%;
         width: 60%; } }
     #container #page #promise aside.px-fore .content {
@@ -2998,8 +3000,13 @@ main #main .main {
     width: 50%; }
   #page.about section.profile aside {
     height: 100%; }
+    @media (max-width: 768px) {
+      #page.about section.profile aside {
+        width: 100%;
+        float: none;
+        height: 50%; } }
     #page.about section.profile aside .content {
-      padding: 60px 30px;
+      padding: 40px 30px;
       color: #817F82;
       width: 100%;
       height: 100%; }
@@ -3010,7 +3017,13 @@ main #main .main {
       background-repeat: no-repeat;
       background-size: cover; }
   #page.about section .content {
+    margin-top: 50px;
     padding: 5%; }
+    @media (max-width: 768px) {
+      #page.about section .content {
+        margin: 10px;
+        font-size: 1em;
+        padding: 2%; } }
   #page.about section.past {
     background-color: #F99C1C;
     background-image: url(../images/past-picture.png);
@@ -3071,6 +3084,9 @@ main #main .main {
         font-size: 3em; }
       #page.our-work section.parallax aside .content p {
         font-size: 1.5em; }
+        @media (max-width: 768px) {
+          #page.our-work section.parallax aside .content p {
+            font-size: 1em; } }
       #page.our-work section.parallax aside .content img.left-open-arrow {
         width: 15px;
         display: inline-block;

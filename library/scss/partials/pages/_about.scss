@@ -35,12 +35,21 @@
 
 		 	aside {
 		 		height: 100%;
+		 		
+
+		 		@media (max-width: 768px) {
+    				width: 100%;
+    				float: none;
+    				height: 50%;
+    			}
 		 	
 			 	.content {
-			 		padding: 60px 30px;
+			 		padding: 40px 30px;
 			 		color: $gray;
 			 		width: 100%;
 			 		height: 100%;
+
+
 			 	}
 
 				.profile-pic {
@@ -54,7 +63,14 @@
     	}
 
 		.content {
+			margin-top: 50px;
 			padding: 5%;
+
+			@media (max-width: 768px) {
+    				margin: 10px;
+    				font-size: 1em;
+    				padding: 2%;
+    			}
 		}
 
 		&.past {
@@ -63,6 +79,10 @@
 		 	background-position: center right;
 		 	background-repeat: no-repeat;
 		 	background-size: contain;
+
+		 	@media (max-width: 768px) {
+    				
+    			}
 		}
 
 		&.present {
