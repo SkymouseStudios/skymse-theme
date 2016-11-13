@@ -408,8 +408,10 @@ section {
     			font-size: 2em;
 
     			@media (max-width: 768px) {
-    			width: 100%;
-    		}
+    				width: 100%;
+    				font-size: 1em;
+    			}
+
     		}
 
     	}
@@ -422,6 +424,8 @@ section {
 
     		@media (max-width: 768px) {
     			float: none;
+    			padding: 25px;
+    			width: 90%;
     		}
     		
 	    	div {

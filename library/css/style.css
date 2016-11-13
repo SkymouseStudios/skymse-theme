@@ -2739,7 +2739,8 @@ section {
       font-size: 2em; }
       @media (max-width: 768px) {
         #container #page #process div.brand-experience p {
-          width: 100%; } }
+          width: 100%;
+          font-size: 1em; } }
   #container #page #process aside {
     float: left;
     width: 33.33%;
@@ -2747,7 +2748,9 @@ section {
     padding: 20px; }
     @media (max-width: 768px) {
       #container #page #process aside {
-        float: none; } }
+        float: none;
+        padding: 25px;
+        width: 90%; } }
     #container #page #process aside div {
       text-align: center; }
 #container #page #proof {
