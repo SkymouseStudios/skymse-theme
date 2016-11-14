@@ -44,6 +44,9 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 	
+	<!-- GOOGLE ANALYTICS SCRIPT -->
+	<?php include_once("analyticstracking.php") ?>
+
 		<div id="container">
 
 			<!-- Conditional Statement for a background image -->
