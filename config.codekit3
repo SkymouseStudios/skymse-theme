@@ -358,7 +358,7 @@
 		},
 	"\/library\/images\/blastoff-rocket.png": {
 		"ft": 32768,
-		"iS": 82811,
+		"iS": 90847,
 		"oA": 0,
 		"oAP": "\/library\/images\/blastoff-rocket.png",
 		"oF": 0,
@@ -1858,6 +1858,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/post-formats\/format.php",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
 		"oF": 0
 		},
 	"\/readme.md": {

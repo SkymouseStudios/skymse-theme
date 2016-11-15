@@ -62,8 +62,8 @@
 					<div class="motion">
 						<div class="overlay">
 						<h3>Motion</h3>
-						<a class="btn" title="Read the Case Study" href="#">Read the Case Study</a>
-						<img alt="Development Jet" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/motion-rocket.png">
+						<a class="btn" title="Read the Case Study" href="http://skymse.com/wp-content/uploads/2016/11/CS-Mesa-Tec.pdf">Read the Case Study</a>
+						<img alt="Motion Rocket" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/motion-rocket.png">
 						</div>
 					</div>
 
@@ -73,8 +73,8 @@
 					<div class="audio">
 					<div class="overlay">
 						<h3>Audio</h3>
-						<a class="btn" title="Read the Case Study" href="#">Read the Case Study</a>
-						<img alt="Development Jet" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/audio-balloon.png">
+						<a class="btn" title="Read the Case Study" href="http://skymse.com/wp-content/uploads/2016/11/CS-RCRE.pdf">Read the Case Study</a>
+						<img alt="Audio Balloon" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/audio-balloon.png">
 					</div></div>
 				</aside>
 
@@ -82,8 +82,8 @@
 					<div class="design">
 						<div class="overlay">
 							<h3>Design</h3>
-							<a class="btn" title="Read the Case Study" href="#">Read the Case Study</a>
-							<img alt="Development Jet" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/design-blimp.png">
+							<a class="btn" title="Read the Case Study" href="http://skymse.com/wp-content/uploads/2016/11/CS-Welch.pdf">Read the Case Study</a>
+							<img alt="Design Blimp" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/design-blimp.png">
 						</div>
 					</div>
 				</aside>
@@ -92,7 +92,7 @@
 					<div class="development">
 						<div class="overlay">
 							<h3>Development</h3>
-							<a class="btn" title="Read the Case Study" href="#">Read the Case Study</a>
+							<a class="btn" title="Read the Case Study" href="http://skymse.com/wp-content/uploads/2016/11/CS-Welch.pdf">Read the Case Study</a>
 							<img alt="Development Jet" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/development-jet.png">
 						</div>
 					</div>	
