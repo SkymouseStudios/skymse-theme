@@ -46,7 +46,7 @@
 
 		<div id="container">
 
-			<!-- Conditional Statement for a background image -->
+			<?php // Conditional Statement for a background image ?>
 			<?php if (has_post_thumbnail($post->ID)) { ?>
 
                   <?php $image = wp_get_attachment_url(get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail'); ?>
@@ -59,7 +59,7 @@
                   <header class="header <?php echo the_field('background_color'); ?>" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
                   <?php	} ?>
-
+                <?php // END Header Background ?>
 			
 				<div id="inner-header" class="wrap cf">
 
@@ -87,7 +87,7 @@
 
 					</nav>
 
-				</div> <!-- END The Inner Header -->
+				</div> <?php // END The Inner Header ?> 
 
 				<div class="hero">
 					
