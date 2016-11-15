@@ -564,7 +564,9 @@ section {
     		img {
     			margin: 0 auto;
     			display: block;
+    		}
 
+    		> img {
     			@media (max-width: 768px) {
     				display: none;
     			}
