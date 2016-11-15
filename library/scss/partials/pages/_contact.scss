@@ -35,13 +35,21 @@
 				margin-left: 7%;
 				background-color: $orange;
 				padding: 25px;
+
+				@media (max-width: 968px) {
+					width: 50%;
+				}
+
+				@media (max-width: 768px) {
+					width: 100%;
+				}
 	
 				h3 {
 					font-size: 3em;
 				}
 
 				p {
-					font-size:1.5em;
+					font-size:1.2em;
 				}
 
 				img.left-open-arrow {

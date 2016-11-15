@@ -2827,9 +2827,9 @@ section {
     #container #page #proposal aside img {
       margin: 0 auto;
       display: block; }
-      @media (max-width: 768px) {
-        #container #page #proposal aside img {
-          display: none; } }
+    @media (max-width: 768px) {
+      #container #page #proposal aside > img {
+        display: none; } }
     #container #page #proposal aside form {
       margin: 0px auto;
       max-width: 480px;
@@ -2984,13 +2984,16 @@ main #main .main {
 #page.about section {
   position: relative;
   height: 500px;
-  height: 90vh;
+  height: auto;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   width: 100%;
   border-top: 20px solid #70C1DB; }
+  @media (max-width: 768px) {
+    #page.about section {
+      height: auto; } }
   #page.about section h4 {
     letter-spacing: .1em;
     margin: 0; }
@@ -2998,13 +3001,15 @@ main #main .main {
     color: white; }
   #page.about section aside {
     width: 50%; }
+    @media (max-width: 768px) {
+      #page.about section aside {
+        width: 100%; } }
   #page.about section.profile aside {
     height: 100%; }
     @media (max-width: 768px) {
       #page.about section.profile aside {
         width: 100%;
-        float: none;
-        height: 50%; } }
+        float: none; } }
     #page.about section.profile aside .content {
       padding: 40px 30px;
       color: #817F82;
@@ -3030,6 +3035,9 @@ main #main .main {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain; }
+    @media (max-width: 768px) {
+      #page.about section.past {
+        background-image: url(); } }
   #page.about section.present {
     background-color: #5c9ead;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#70C1DB), to(#5c9ead));
@@ -3041,12 +3049,18 @@ main #main .main {
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 40%; }
+    @media (max-width: 768px) {
+      #page.about section.present {
+        background-image: url(); } }
   #page.about section.future {
     background-color: #817F82;
     background-image: url(../images/future-bg.png);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain; }
+    @media (max-width: 768px) {
+      #page.about section.future {
+        background-image: url(); } }
   #page.about section .right {
     float: right; }
   #page.about section .left {
@@ -3310,10 +3324,16 @@ main #main .main {
       margin-left: 7%;
       background-color: #F99C1C;
       padding: 25px; }
+      @media (max-width: 968px) {
+        #page.contact section.parallax aside .content {
+          width: 50%; } }
+      @media (max-width: 768px) {
+        #page.contact section.parallax aside .content {
+          width: 100%; } }
       #page.contact section.parallax aside .content h3 {
         font-size: 3em; }
       #page.contact section.parallax aside .content p {
-        font-size: 1.5em; }
+        font-size: 1.2em; }
       #page.contact section.parallax aside .content img.left-open-arrow {
         width: 15px;
         display: inline-block;
