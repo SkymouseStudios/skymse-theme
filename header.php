@@ -37,15 +37,12 @@
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
-		<?php // drop Google Analytics Here ?>
-		<?php // end analytics ?>
+		<?php // Google Analytics ?>
+		<?php include_once("analyticstracking.php") ?>
 
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-	
-	<!-- GOOGLE ANALYTICS SCRIPT -->
-	<?php include_once("analyticstracking.php") ?>
 
 		<div id="container">
 
