@@ -38,7 +38,7 @@
 		<?php // end of wordpress head ?>
 
 		<?php // Google Analytics ?>
-		<?php include_once("analyticstracking.php") ?>
+		<?php include_once("library/partials/analyticstracking.php") ?>
 
 	</head>
 
