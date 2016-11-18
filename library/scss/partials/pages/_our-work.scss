@@ -245,6 +245,24 @@
 	    top: 0;
 	    background-color: $lblue;
 	    transition: 0.5s ease-in-out;
+
+	    // MOTION
+
+		#Franciscan {
+		    background-image: url(../images/our-work/motion-fus.jpeg)
+		}
+
+		#MesaTec {
+		    background-image: url(../images/our-work/motion-mesa.jpeg)
+		}
+
+		#Resource {
+		    background-image: url(../images/our-work/motion-rcre.jpeg)
+		}
+
+		#Scan {
+		    background-image: url(../images/our-work/motion-scan.jpeg)
+		}
 	}
 
 	#slideSectionAudio {
@@ -256,6 +274,24 @@
 	    top: 0;
 	    background-color: $lblue;
 	    transition: 0.5s ease-in-out;
+
+	    // AUDIO
+
+		#Franciscan {
+		    background-image: url(../images/our-work/motion-fus.png)
+		}
+
+		#MesaTec {
+		    background-image: url(../images/our-work/motion-mesa.png)
+		}
+
+		#Resource {
+		    background-image: url(../images/our-work/motion-rcre.png)
+		}
+
+		#Scan {
+		    background-image: url(../images/our-work/motion-scan.png)
+		}
 	}
 
 	#slideSectionDev {
@@ -267,6 +303,22 @@
 	    top: 0;
 	    background-color: $lblue;
 	    transition: 0.5s ease-in-out;
+
+	    #Man {
+	    background-image: url(../images/our-work/dev-man.png)
+		}
+
+		#Welch {
+		    background-image: url(../images/our-work/dev-welch.png)
+		}
+
+		#Resource {
+		    background-image: url(../images/our-work/dev-rcre.png)
+		}
+
+		#Scan {
+		    background-image: url(../images/our-work/motion-scan.png)
+		}
 	}
 
 	#slideSectionDesign {
@@ -278,6 +330,25 @@
 	    top: 0;
 	    background-color: $lblue;
 	    transition: 0.5s ease-in-out;
+
+		// DESIGN
+
+		#Franciscan {
+		    background-image: url(../images/our-work/motion-fus.png)
+		}
+
+		#MesaTec {
+		    background-image: url(../images/our-work/motion-mesa.png)
+		}
+
+		#Resource {
+		    background-image: url(../images/our-work/motion-rcre.png)
+		}
+
+		#Scan {
+		    background-image: url(../images/our-work/motion-scan.png)
+		}
+
 	}
 
 		img.right-close-arrow {
@@ -361,77 +432,5 @@
 
 	/* Project Square Styles */
 
-
-	// MOTION
-
-	#Franciscan {
-	    background-image: url(../images/our-work/motion-fus.png)
-	}
-
-	#MesaTec {
-	    background-image: url(../images/our-work/motion-mesa.png)
-	}
-
-	#Resource {
-	    background-image: url(../images/our-work/motion-rcre.png)
-	}
-
-	#Scan {
-	    background-image: url(../images/our-work/motion-scan.png)
-	}
-
-	// AUDIO
-
-	#Franciscan {
-	    background-image: url(../images/our-work/motion-fus.png)
-	}
-
-	#MesaTec {
-	    background-image: url(../images/our-work/motion-mesa.png)
-	}
-
-	#Resource {
-	    background-image: url(../images/our-work/motion-rcre.png)
-	}
-
-	#Scan {
-	    background-image: url(../images/our-work/motion-scan.png)
-	}
-
-	// DEV
-
-	#Man {
-	    background-image: url(../images/our-work/dev-man.png)
-	}
-
-	#Welch {
-	    background-image: url(../images/our-work/dev-welch.png)
-	}
-
-	#Resource {
-	    background-image: url(../images/our-work/dev-rcre.png)
-	}
-
-	#Scan {
-	    background-image: url(../images/our-work/motion-scan.png)
-	}
-
-	// DESIGN
-
-	#Franciscan {
-	    background-image: url(../images/our-work/motion-fus.png)
-	}
-
-	#MesaTec {
-	    background-image: url(../images/our-work/motion-mesa.png)
-	}
-
-	#Resource {
-	    background-image: url(../images/our-work/motion-rcre.png)
-	}
-
-	#Scan {
-	    background-image: url(../images/our-work/motion-scan.png)
-	}
 }
 
