@@ -98,7 +98,6 @@
 							<h4><?php echo(types_render_field( "professional-title", array( 'raw' => true) )); ?></h4>
 							<p><?php echo(types_render_field( "profile-description", array( 'raw' => false) )); ?>
 							</p>
-							<a href="#">Read My Blog Posts</a>
 						</div>
 					</aside>
 				</section>
