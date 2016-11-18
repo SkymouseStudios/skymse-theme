@@ -13,7 +13,7 @@
 				<div class="content">
 					<h3>The Past</h3>
 					<h4>Boys will become men.</h4>
-					<p>Skymouse Studios was started out of a college dorm on a rainy night using only a shattered iPhone 4s. At the time, the team had no idea what was ahead of them. In fact they still don't really know. In the hot steamy summer of 2015, two friends went on a road trip in a 1989 Toyota Corolla. Eight hours later, Skymouse was conceived a dark dinghy hotel room that smelled of cheap root beer under a dim flickering light bulb. 
+					<p>Skymouse Studios was started out of a college dorm on a rainy night using only a shattered iPhone 4s. At the time, the team had no idea what was ahead of them. In fact they still don't really know. In the hot steamy summer of 2015, two friends went on a road trip in a 1989 Toyota Corolla.
 					</p>
 					<p>Skymouse slowly matured as the two friends graduated school and ended up in Indianapolis. We lived in a small dark apartment together and didn’t get much work done. But we argued a lot and talked about how cool we were.
 					Wives were found, and money needed to be made so we finally buckled down and started doing cool stuff.</p>
@@ -48,7 +48,6 @@
 						</div>
 						<!-- End MailChimp Signup Form -->
 						<p>Everything we do, we want to do better. </p>
-						<p>Skymouse is a project of Intelluxx “Chasing the Perfect System.”</p>
 					</div>
 				</aside>
 			</section>
