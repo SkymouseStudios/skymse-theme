@@ -17,9 +17,9 @@
 						<!-- <li>
 							<a title="Tutorials" href="#">Tutorials</a>
 						</li> -->
-						<li>
+						<!-- <li>
 							<a title="Blog" href="/index.php/blog">Blog</a>
-						</li>
+						</li> -->
 						<!-- <li>
 							<a title="Downloads" href="#">Downloads</a>
 						</li> -->

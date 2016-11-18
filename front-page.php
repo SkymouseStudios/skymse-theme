@@ -114,11 +114,10 @@
 				<aside>
 					<p>If you have a project you’d like to talk about or want to get some ideas about how we can help you, 
 					fill out this fun little form and we will get back to you as soon as we can!</p>
-					<p>Here are some quick links of stuff to do around the site!</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
-					<a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
-					<a class="blue-btn-2" title="Read Something on Our Blog!" href="/index.php/blog">Blog</a>
+					<!-- <a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
+					<a class="blue-btn-2" title="Read Something on Our Blog!" href="/index.php/blog">Blog</a> -->
 				</aside>
 
 				<aside>
