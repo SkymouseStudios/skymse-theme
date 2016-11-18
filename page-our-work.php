@@ -18,7 +18,7 @@
 			<aside>
 				<div class="content left">
 					<h3>Motion</h3>
-					<p>Don't just tell them, show them. Video and animation allow your brand to entertain, educate, and advertise-all at the same time. Promote your brand through YouTube promos, television commercials, and social media outlets to ensure widespread exposure and brand recognition.</p>
+					<p>Your brand moves your customers. Show them why.</p>
 					
 					<div id="openButtonMotion" title="See Our Projects">
 					<img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"><span>See Motion Projects</span>
@@ -71,7 +71,7 @@
 			<aside>
 				<div class="content right">
 					<h3>Audio</h3>
-					<p>A voice to match your brand's beautiful face. Aural branding is just as effective as visual branding and allows additional outlets for advertisement such as radio, podcasts, and streaming services.</p>
+					<p>A pretty face needs a voice to match. Listen to your customers, then they will listen to you.</p>
 					
 					<div id="openButtonAudio" title="See Our Projects">
 					<span>See Audio Projects</span><img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg">
@@ -120,7 +120,7 @@
 			<aside>
 				<div class="content left">
 					<h3>Development</h3>
-					<p>Your brand's digital storefront. Whether your website is for commerce or services, it is the most effective way of showcasing exactly what your brand offers.</p>
+					<p>The best exposure you can get is online. Reach your customers where they want to be reached.</p>
 
 					<div id="openButtonDev" title="See Our Projects">
 					<img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"><span>See Development Projects</span>
@@ -169,7 +169,7 @@
 			<aside>
 				<div class="content right">
 					<h3>Design</h3>
-					<p>The visual form and practical function of your brand. From web design to sales copy - design is the primary language used to communicate your value, vision, and strategic use.</p>
+					<p>From user experience to customer experience, design directs the meaning behind your brand.</p>
 
 					<div id="openButtonDesign" title="See Our Projects">
 					<span>See Design Projects</span><img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg">
