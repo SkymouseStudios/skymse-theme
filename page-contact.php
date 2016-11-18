@@ -87,7 +87,7 @@
 
 				<aside>
 					<h3>What's Your Cheese?</h3>
-					<?php include_once("library/partials/john-contact.php") ?>
+					<?php get_template_part('library/partials','johncontact'); ?>
 				</aside>
 			</section>
 		
