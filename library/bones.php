@@ -150,7 +150,7 @@ function bones_scripts_and_styles() {
 		wp_register_script( 'mailChimp', 'https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
-		wp_enqueue_script( 'mailChimp' );
+		// wp_enqueue_script( 'mailChimp' ); Disable this for now, it's annoying when it pops up
 		wp_enqueue_script( 'googleMaps' );
 		wp_enqueue_script( 'bones-modernizr' );
 		wp_enqueue_style( 'bones-stylesheet' );

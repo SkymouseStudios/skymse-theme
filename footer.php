@@ -26,9 +26,9 @@
 						<li>
 							<a title="About" href="/index.php/about">About</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a class="btn" title="Subscribe" href="#">Subscribe</a>
-						</li>
+						</li> -->
 					</ul>
 				</nav>
 				<!-- End imposter navigation -->
