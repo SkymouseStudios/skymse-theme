@@ -10,9 +10,8 @@
 				<!-- PARALLAX Way Front -->
 				<aside class="px-fore">
 					<div class="content">
-						<h2>We help you design the tools you need to get your cheese.</h2>
-						<p> Skymouse studios partners with brands in order to help them communicate their value, vision, and strategic use through effective implementation of narrative, functionality, and visual design.</p>
-						<p>What is a Brand Experience? Read on.</p>
+						<h2>WHAT YOU NEED. WHAT YOU PAY FOR.</h2>
+						<p>Skymouse Studios helps you increase profits and customer engagement through a meaningful brand identity and experience.</p>
 					</div>
 				</aside>
 				
@@ -30,7 +29,7 @@
 				<div class="top">
 					<div class="brand-experience">
 						<h3>Brand Experience</h3>
-						<p>When you work with us, we want 3 things to happen. We want you to get what you pay for. We want you to love the finished product. And we want to educate you along the way while learning from you ourselves.</p>
+						<p>Show your customers and clients that you have exactly what they need. Help them experience your brand. Here's how we can do that together.</p>
 					</div>
 				</div>
 				
