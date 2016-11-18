@@ -3180,6 +3180,14 @@ main #main .main {
     top: 0;
     background-color: #70C1DB;
     transition: 0.5s ease-in-out; }
+    #page.our-work section #slideSectionMotion #Franciscan {
+      background-image: url(../images/our-work/motion-fus.jpeg); }
+    #page.our-work section #slideSectionMotion #MesaTec {
+      background-image: url(../images/our-work/motion-mesa.jpeg); }
+    #page.our-work section #slideSectionMotion #Resource {
+      background-image: url(../images/our-work/motion-rcre.jpeg); }
+    #page.our-work section #slideSectionMotion #Scan {
+      background-image: url(../images/our-work/motion-scan.jpeg); }
   #page.our-work section #slideSectionAudio {
     height: 100%;
     width: 100%;
@@ -3189,6 +3197,14 @@ main #main .main {
     top: 0;
     background-color: #70C1DB;
     transition: 0.5s ease-in-out; }
+    #page.our-work section #slideSectionAudio #Franciscan {
+      background-image: url(../images/our-work/motion-fus.png); }
+    #page.our-work section #slideSectionAudio #MesaTec {
+      background-image: url(../images/our-work/motion-mesa.png); }
+    #page.our-work section #slideSectionAudio #Resource {
+      background-image: url(../images/our-work/motion-rcre.png); }
+    #page.our-work section #slideSectionAudio #Scan {
+      background-image: url(../images/our-work/motion-scan.png); }
   #page.our-work section #slideSectionDev {
     height: 100%;
     width: 100%;
@@ -3198,6 +3214,14 @@ main #main .main {
     top: 0;
     background-color: #70C1DB;
     transition: 0.5s ease-in-out; }
+    #page.our-work section #slideSectionDev #Man {
+      background-image: url(../images/our-work/dev-man.png); }
+    #page.our-work section #slideSectionDev #Welch {
+      background-image: url(../images/our-work/dev-welch.png); }
+    #page.our-work section #slideSectionDev #Resource {
+      background-image: url(../images/our-work/dev-rcre.png); }
+    #page.our-work section #slideSectionDev #Scan {
+      background-image: url(../images/our-work/motion-scan.png); }
   #page.our-work section #slideSectionDesign {
     height: 100%;
     width: 100%;
@@ -3207,6 +3231,14 @@ main #main .main {
     top: 0;
     background-color: #70C1DB;
     transition: 0.5s ease-in-out; }
+    #page.our-work section #slideSectionDesign #Franciscan {
+      background-image: url(../images/our-work/motion-fus.png); }
+    #page.our-work section #slideSectionDesign #MesaTec {
+      background-image: url(../images/our-work/motion-mesa.png); }
+    #page.our-work section #slideSectionDesign #Resource {
+      background-image: url(../images/our-work/motion-rcre.png); }
+    #page.our-work section #slideSectionDesign #Scan {
+      background-image: url(../images/our-work/motion-scan.png); }
   #page.our-work section img.right-close-arrow {
     width: 40px;
     top: 20px;
@@ -3262,38 +3294,6 @@ main #main .main {
     width: 100%;
     height: 100%;
     text-align: center; }
-  #page.our-work section #Franciscan {
-    background-image: url(../images/our-work/motion-fus.png); }
-  #page.our-work section #MesaTec {
-    background-image: url(../images/our-work/motion-mesa.png); }
-  #page.our-work section #Resource {
-    background-image: url(../images/our-work/motion-rcre.png); }
-  #page.our-work section #Scan {
-    background-image: url(../images/our-work/motion-scan.png); }
-  #page.our-work section #Franciscan {
-    background-image: url(../images/our-work/motion-fus.png); }
-  #page.our-work section #MesaTec {
-    background-image: url(../images/our-work/motion-mesa.png); }
-  #page.our-work section #Resource {
-    background-image: url(../images/our-work/motion-rcre.png); }
-  #page.our-work section #Scan {
-    background-image: url(../images/our-work/motion-scan.png); }
-  #page.our-work section #Man {
-    background-image: url(../images/our-work/dev-man.png); }
-  #page.our-work section #Welch {
-    background-image: url(../images/our-work/dev-welch.png); }
-  #page.our-work section #Resource {
-    background-image: url(../images/our-work/dev-rcre.png); }
-  #page.our-work section #Scan {
-    background-image: url(../images/our-work/motion-scan.png); }
-  #page.our-work section #Franciscan {
-    background-image: url(../images/our-work/motion-fus.png); }
-  #page.our-work section #MesaTec {
-    background-image: url(../images/our-work/motion-mesa.png); }
-  #page.our-work section #Resource {
-    background-image: url(../images/our-work/motion-rcre.png); }
-  #page.our-work section #Scan {
-    background-image: url(../images/our-work/motion-scan.png); }
 
 /* ............................................ */
 /* ...............PAGE: CONTACT ...............*/
