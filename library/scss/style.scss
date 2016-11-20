@@ -325,10 +325,9 @@ section {
 		z-index: -5;
 
 		aside.px-fore {
-			width: 35%;
 			z-index: 4;
 			right: auto;
-			left: 250px;
+			left: 20%;
 			top: 150px;
 
 			@media (max-width: 768px) {
@@ -343,6 +342,7 @@ section {
 
 			.content {
 				width: 100%;
+				max-width: 450px;
 				color: white;
 			}
 		}
