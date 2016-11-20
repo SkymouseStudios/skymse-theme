@@ -12,6 +12,14 @@
 				
 					<ul>
 						<li>
+							<a title="About" href="/index.php/about">About</a>
+						</li>
+
+						<li>
+							<a title="Our Work" href="/index.php/our-work">Our Work</a>
+						</li>
+
+						<li>
 							<a title="Contact Skymouse" href="/index.php/contact">Contact</a>
 						</li>
 						<!-- <li>
@@ -23,9 +31,8 @@
 						<!-- <li>
 							<a title="Downloads" href="#">Downloads</a>
 						</li> -->
-						<li>
-							<a title="About" href="/index.php/about">About</a>
-						</li>
+						
+
 						<!-- <li>
 							<a class="btn" title="Subscribe" href="#">Subscribe</a>
 						</li> -->
