@@ -229,6 +229,9 @@ section {
 	display: block;
 	position: relative;
 	height: 100vh;
+	background-image: url("../images/skymouse_banner.svg");
+	background-position: center;
+	background-size: cover;
 	border-bottom: 30px solid $lblue;
 
 	.bg-image { 
