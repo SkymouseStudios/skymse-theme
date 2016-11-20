@@ -53,7 +53,7 @@
 					<img alt="Function" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Function.svg">
 					<div class="function">
 						<h3>Function</h3>
-						<p>When your brand tells it’s story by intentional design through a functional experience, true branding is the result. Your brand becomes something relatable, desireable, and people want to be a part of it.</p>
+						<p>When your brand tells it’s story by intentional design through a functional experience, true branding is the result.</p>
 					</div>
 				</aside>
 
@@ -114,8 +114,9 @@
 				<div class="cheese-right-blur px-base"></div> -->
 				
 				<aside>
-					<p>If you have a project you’d like to talk about or want to get some ideas about how we can help you, 
-					fill out this fun little form and we will get back to you as soon as we can!</p>
+					<h4>So how much is this gonna cost?</h4>
+					<p>At Skymouse, we make sure you get exactly what you pay for and that means you're happy with your product. We find exactly where you need to be and help you get there.</p>
+					<p>Interested? Sending us a message is the best way to get in touch. We're sorry if you don't like messages, but it's just the best way to do things right now!</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
 					<!-- <a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
