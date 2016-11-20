@@ -12,7 +12,6 @@ if(isset($_POST['submit'])) {
     $email_subject = "Contact Form Submission from Skymse.com";
 
 
-
 function died($error) {
     echo "Please fill out all the fields";
     die();
@@ -70,7 +69,7 @@ if(strlen($error_message) > 0) {
 
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n".
-'X-Mailer: PHP/' . phpversion();
+'X-Mailer: PHP/'. phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 
 ?>
@@ -84,11 +83,9 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
 
 
-
-
 <h3>What's Your Cheese?</h3>
 
-<form name="contactform" role="form" action="#proposal" method="post">
+<form name="contactform" role="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 	<label for="first_name">First Name</label>
 	<input type="text" name="first_name" placeholder="First Name" required="required">
 	<label for="last_name">Last Name</label>
@@ -98,9 +95,7 @@ $headers = 'From: '.$email_from."\r\n".
 	<label for="comments">Tell us about yourself?</label>
 	<textarea name="comments" placeholder="What's going on?"></textarea>
 	<label>Subscribe to our Newsletter!</label>
-	<radio></radio>
 
-    <input type="hidden" name="retURL" value="<?php echo get_home_url(); ?>">
 	<input name="submit" type="submit" value="submit" alt="Let's Get Started!">
 
 </form>

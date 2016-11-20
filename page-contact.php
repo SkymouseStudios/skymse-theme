@@ -85,6 +85,11 @@
 					<a class="blue-btn-2" title="Read Something on Our Blog!">Blog</a> -->
 				</aside>
 
+                <aside>
+                    <?php include_once("library/partials/john-contact.php"); ?>
+                    
+                </aside>
+
 			</section>
 		
 	</div>
