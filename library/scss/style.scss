@@ -381,9 +381,6 @@ section {
 // .......................................................
 // ............... SECTION #2 THE PROCESS ..................
 // .......................................................
-
-
-	// Test Change for github
 	
 	#process {
 	    height: auto;
@@ -402,6 +399,7 @@ section {
     		margin: 0 auto;
     		text-align: center;
     		height: 50%;
+    		margin-bottom: 25px;
 
     		@media (max-width: 768px) {
     			padding: 10%;
