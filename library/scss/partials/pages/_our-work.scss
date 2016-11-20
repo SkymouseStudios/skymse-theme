@@ -249,19 +249,19 @@
 	    // MOTION
 
 		#Franciscan {
-		    background-image: url(../images/our-work/motion-fus.jpeg)
+		    background-image: url(../images/our-work/motion-fus.jpg);
 		}
 
 		#MesaTec {
-		    background-image: url(../images/our-work/motion-mesa.jpeg)
+		    background-image: url(../images/our-work/motion-mesa.jpg);
 		}
 
 		#Resource {
-		    background-image: url(../images/our-work/motion-rcre.jpeg)
+		    background-image: url(../images/our-work/motion-rcre.jpg);
 		}
 
 		#Scan {
-		    background-image: url(../images/our-work/motion-scan.jpeg)
+		    background-image: url(../images/our-work/motion-scan.jpg);
 		}
 	}
 
@@ -272,25 +272,19 @@
 	    z-index: 1;
 	    right: 0;
 	    top: 0;
-	    background-color: $lblue;
+	    background-color: $orange;
+	    background-image: url("../images/skymouse_banner.svg");
+		background-position: center;
+		background-size: cover;
 	    transition: 0.5s ease-in-out;
 
 	    // AUDIO
-
-		#Franciscan {
-		    background-image: url(../images/our-work/motion-fus.png)
-		}
-
 		#MesaTec {
-		    background-image: url(../images/our-work/motion-mesa.png)
+		    background-image: url(../images/our-work/audio-mesa.jpg);
 		}
 
 		#Resource {
-		    background-image: url(../images/our-work/motion-rcre.png)
-		}
-
-		#Scan {
-		    background-image: url(../images/our-work/motion-scan.png)
+		    background-image: url(../images/our-work/audio-rcre.jpg);
 		}
 	}
 
@@ -301,23 +295,18 @@
 	    z-index: 1;
 	    left: 0;
 	    top: 0;
-	    background-color: $lblue;
+	    background-color: $gray;
+	    background-image: url("../images/skymouse_banner.svg");
+		background-position: center;
+		background-size: cover;
 	    transition: 0.5s ease-in-out;
 
 	    #Man {
-	    background-image: url(../images/our-work/dev-man.png)
+	    	background-image: url(../images/our-work/dev-man.jpg);
 		}
 
 		#Welch {
-		    background-image: url(../images/our-work/dev-welch.png)
-		}
-
-		#Resource {
-		    background-image: url(../images/our-work/dev-rcre.png)
-		}
-
-		#Scan {
-		    background-image: url(../images/our-work/motion-scan.png)
+		    background-image: url(../images/our-work/dev-welch.jpg);
 		}
 	}
 
@@ -328,25 +317,20 @@
 	    z-index: 1;
 	    right: 0;
 	    top: 0;
-	    background-color: $lblue;
+	    background-color: $cheese;
+	    background-image: url("../images/skymouse_banner.svg");
+		background-position: center;
+		background-size: cover;
 	    transition: 0.5s ease-in-out;
 
 		// DESIGN
 
-		#Franciscan {
-		    background-image: url(../images/our-work/motion-fus.png)
+		#Welch {
+		    background-image: url(../images/our-work/design-welch.jpg);
 		}
 
-		#MesaTec {
-		    background-image: url(../images/our-work/motion-mesa.png)
-		}
-
-		#Resource {
-		    background-image: url(../images/our-work/motion-rcre.png)
-		}
-
-		#Scan {
-		    background-image: url(../images/our-work/motion-scan.png)
+		#WillysFarm {
+		    background-image: url(../images/our-work/design-wf.jpg);
 		}
 
 	}
@@ -391,7 +375,7 @@
 			    vertical-align: bottom;
 
 			    h3 {
-			    	font-size: 1.4em;
+			    	font-size: 1.2em;
 			    	margin-bottom: 5px;
 			    }
 
