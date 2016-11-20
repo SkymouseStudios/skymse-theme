@@ -2651,7 +2651,7 @@ section {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
     .header div.hero p {
-      font-size: 2em;
+      font-size: 1em;
       min-width: 20%; }
       @media (max-width: 768px) {
         .header div.hero p {
