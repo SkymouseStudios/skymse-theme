@@ -85,17 +85,6 @@
 					<a class="blue-btn-2" title="Read Something on Our Blog!">Blog</a> -->
 				</aside>
 
-				<aside>
-<<<<<<< HEAD
-				
-					<?php include_once("library/partials/john-contact.php"); ?>
-
-=======
-					<h3>What's Your Cheese?</h3>
-					<?php get_template_part('library/partials','johncontact'); ?>
->>>>>>> origin/contact-form
-				</aside>
-
 			</section>
 		
 	</div>
