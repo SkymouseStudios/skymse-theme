@@ -651,8 +651,7 @@ h4 {
   color: white;
   font-family: "Arvo", Cambria, Times New Roman, Times, serif;
   font-weight: 200;
-  font-size: 20px;
-  letter-spacing: 22px; }
+  font-size: 20px; }
 
 h3 {
   font-family: "Rubik", Helvetica, Arial, sans-serif;
@@ -2684,7 +2683,7 @@ section {
     z-index: 4;
     right: auto;
     left: 20%;
-    top: 150px; }
+    top: 230px; }
     @media (max-width: 768px) {
       #container #page #promise aside.px-fore {
         left: 20%;
@@ -2733,7 +2732,8 @@ section {
   #container #page #process div.brand-experience {
     margin: 0 auto;
     text-align: center;
-    height: 50%; }
+    height: 50%;
+    margin-bottom: 25px; }
     @media (max-width: 768px) {
       #container #page #process div.brand-experience {
         padding: 10%; } }
@@ -2750,7 +2750,10 @@ section {
     float: left;
     width: 33.33%;
     margin: 0 auto;
-    padding: 20px; }
+    padding: 20px;
+    text-align: center; }
+    #container #page #process aside img {
+      width: 100px; }
     @media (max-width: 768px) {
       #container #page #process aside {
         float: none;
@@ -3199,6 +3202,9 @@ main #main .main {
     right: 0;
     top: 0;
     background-color: #F99C1C;
+    background-image: url("../images/skymouse_banner.svg");
+    background-position: center;
+    background-size: cover;
     transition: 0.5s ease-in-out; }
     #page.our-work section #slideSectionAudio #MesaTec {
       background-image: url(../images/our-work/audio-mesa.jpg); }
@@ -3212,6 +3218,9 @@ main #main .main {
     left: 0;
     top: 0;
     background-color: #817F82;
+    background-image: url("../images/skymouse_banner.svg");
+    background-position: center;
+    background-size: cover;
     transition: 0.5s ease-in-out; }
     #page.our-work section #slideSectionDev #Man {
       background-image: url(../images/our-work/dev-man.jpg); }
@@ -3225,6 +3234,9 @@ main #main .main {
     right: 0;
     top: 0;
     background-color: #FCD0A1;
+    background-image: url("../images/skymouse_banner.svg");
+    background-position: center;
+    background-size: cover;
     transition: 0.5s ease-in-out; }
     #page.our-work section #slideSectionDesign #Welch {
       background-image: url(../images/our-work/design-welch.jpg); }
