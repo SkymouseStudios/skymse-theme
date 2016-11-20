@@ -27,15 +27,9 @@ jQuery(document).ready(function() {
   loadGravatars();
 }); 
 
-
-// Mailchimp js if I should want to us it (PH)
-require(["mojo/signup-forms/Loader"], 
-function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"5fc6a176308c70d104c908aac","lid":"8b5af5eabf"}) })
-
-
 // Mobile Menu Animation
-jQuery('header.header div#inner-header #menu-burger').on('click', function() {
-    jQuery('header.header div#inner-header nav#menu').toggleClass('menu-shown');
+jQuery('header div#inner-header #menu-burger').on('click', function() {
+    jQuery('header div#inner-header nav#menu').toggleClass('menu-shown');
   });
 
 
