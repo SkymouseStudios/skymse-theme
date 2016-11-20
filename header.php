@@ -92,7 +92,7 @@
 					
 
 
-					<?php // IF THIS IS A BLOG POST ?>	
+					<?php // Front Page Title ?>	
 
 						<?php   if ( is_front_page() ) { ?>
 						    
@@ -106,6 +106,16 @@
 
 						<?php } ?>
 
+						<!--begin Error 404-->
+						<?php   if ( is_404() ) { ?>
+						    
+						   <h1>Captain, We May Have a problem</h1>
+							<h4>Whoops! This page is missing!</h4>
+
+						<?php } ?><!--End Error 404-->
+
+
+						<?php // Blog Post Subtitle ?>
 						<?php   if ( is_single() ) { ?>
 						    
 						    <p class="byline entry-meta vcard">
@@ -117,10 +127,7 @@
 
                     			echo types_render_field( 'professional-title' , array('id'=>'$parent' )); ?>
 
-
-
                   			</p>
-        
 						<?php } else { }?>
 
 				</div>
