@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['email'])) {
+if(isset($_POST['submit'])) {
     
     $email_to = "jwelch0015@gmail.com";
     $email_subject = "Contact Form Submission from Skymse.com";
@@ -37,11 +37,11 @@ if(!preg_match($email_exp,$email_from)) {
     }
 
 if(!preg_match($string_exp,$last_name)) {
-    $error_message -= 'The last name you entered does not appear to be valid.<br />';
+    $error_message .= 'The last name you entered does not appear to be valid.<br />';
 }
 
 if(strlen($comments) <2) {
-    $error_message .= 'Your comments do not meet the required length'
+    $error_message .= 'Your comments do not meet the required length.<br />';
 }
 
 if(strlen($error_message) > 0) {
