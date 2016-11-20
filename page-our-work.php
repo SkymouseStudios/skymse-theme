@@ -34,28 +34,30 @@
 	            <div class="project" id="Franciscan">
 	                <div class="innerProject">
 		                <h3>Franciscan University of Steubnville</h3>
-		                <p>Lower thirds and Graphics</p>
+		                <p>Animation</p>
 	                </div>    
 	            </div>
 	    
 	            <div class="project" id="MesaTec">
 	                <div class="innerProject">
 		                <h3>Mesa Technical Associates</h3>
-		                <p>Company Promotion Piece</p>
+		                <p>Promotional Video</p>
+		                <a href="https://www.youtube.com/watch?v=2qsuGQd9VFk">Watch Here</a>
 	                </div>
 	            </div>
 	    
 	            <div class="project" id="Resource">
 	                <div class="innerProject">
 		                <h3>Resource Commercial Real Estate</h3>
-		                <p>Video Animation</p>
+		                <p>Animation</p>
 	                </div>
 	            </div>
 
 	            <div class="project" id="Scan">
 	                <div class="innerProject">
 		                <h3>The Student Creative Arts Network</h3>
-		                <p>Video, Audio and Animation</p>
+		                <p>Audio and Animation</p>
+		                <a href="https://www.youtube.com/watch?v=wclmoPGA80c">Watch Here</a>
 	            	</div>
 	            </div>
         	</div>
@@ -83,32 +85,20 @@
 			<div id="slideSectionAudio" class="overlayRightOff">  
 	            <a href="javascript:void(0)" id="closeButtonAudio"><img class="left-close-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"></a>
 
-	            <div class="project" id="Franciscan">
+	            <div class="project" id="Resource">
 	                <div class="innerProject">
-		                <h3>Franciscan University of Steubnville</h3>
-		                <p>Lower thirds and Graphics</p>
+		                <h3>RESOURCE Commercial Real Estate</h3>
+		                <p>Soundtrack, sound design and voice over</p>
+		                <a href="https://soundcloud.com/user-687707994/rcre-animation-soundtrack">Listen Here</a>
 	                </div>    
 	            </div>
 	    
 	            <div class="project" id="MesaTec">
 	                <div class="innerProject">
 		                <h3>Mesa Technical Associates</h3>
-		                <p>Company Promotion Piece</p>
+		                <p>Soundtrack and voice over</p>
+		                <a href="https://soundcloud.com/user-687707994/mesa-promo-vid-soundtrack">Listen Here</a>
 	                </div>
-	            </div>
-	    
-	            <div class="project" id="Resource">
-	                <div class="innerProject">
-		                <h3>Resource Commercial Real Estate</h3>
-		                <p>Video Animation</p>
-	                </div>
-	            </div>
-
-	            <div class="project" id="Man">
-	                <div class="innerProject">
-		                <h3>Short Films</h3>
-		                <p>Video, Audio and Animation</p>
-	            	</div>
 	            </div>
         	</div>
         	<!-- END SLIDER -->
@@ -132,32 +122,18 @@
 			<div id="slideSectionDev" class="overlayLeftOff">  
 	            <a href="javascript:void(0)" id="closeButtonDev"><img class="right-close-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg"></a>
 
-	            <div class="project" id="Franciscan">
+	            <div class="project" id="Man">
 	                <div class="innerProject">
-		                <h3>Franciscan University of Steubnville</h3>
-		                <p>Lower thirds and Graphics</p>
+		                <h3>Man: The Movie</h3>
+		                <p>Website</p>
 	                </div>    
 	            </div>
 	    
-	            <div class="project" id="MesaTec">
+	            <div class="project" id="Welch">
 	                <div class="innerProject">
-		                <h3>Mesa Technical Associates</h3>
-		                <p>Company Promotion Piece</p>
+		                <h3>Welch Title and Abstract</h3>
+		                <p>Website</p>
 	                </div>
-	            </div>
-	    
-	            <div class="project" id="Resource">
-	                <div class="innerProject">
-		                <h3>Resource Commercial Real Estate</h3>
-		                <p>Video Animation</p>
-	                </div>
-	            </div>
-
-	            <div class="project" id="Man">
-	                <div class="innerProject">
-		                <h3>Short Films</h3>
-		                <p>Video, Audio and Animation</p>
-	            	</div>
 	            </div>
         	</div>
         	<!-- END SLIDER -->
@@ -181,32 +157,18 @@
 			<div id="slideSectionDesign" class="overlayRightOff">  
 	            <a href="javascript:void(0)" id="closeButtonDesign"><img class="left-close-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg"></a>
 
-	            <div class="project" id="Franciscan">
+	            <div class="project" id="Welch">
 	                <div class="innerProject">
-		                <h3>Franciscan University of Steubnville</h3>
-		                <p>Lower thirds and Graphics</p>
+		                <h3>Welch Abstract and Title</h3>
+		                <p>Logo and Brand Development</p>
 	                </div>    
 	            </div>
 	    
-	            <div class="project" id="MesaTec">
+	            <div class="project" id="WillysFarm">
 	                <div class="innerProject">
-		                <h3>Mesa Technical Associates</h3>
-		                <p>Company Promotion Piece</p>
+		                <h3>Willy's Farm and Cider Mill</h3>
+		                <p>Logo and Brand Development</p>
 	                </div>
-	            </div>
-	    
-	            <div class="project" id="Resource">
-	                <div class="innerProject">
-		                <h3>Resource Commercial Real Estate</h3>
-		                <p>Video Animation</p>
-	                </div>
-	            </div>
-
-	            <div class="project" id="Scan">
-	                <div class="innerProject">
-		                <h3>Short Films</h3>
-		                <p>Video, Audio and Animation</p>
-	            	</div>
 	            </div>
         	</div>
         	<!-- END SLIDER -->
