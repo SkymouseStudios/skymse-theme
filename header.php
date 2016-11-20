@@ -39,7 +39,6 @@
 
 		<?php // Google Analytics ?>
 		<?php include_once("library/partials/analyticstracking.php"); ?>
-
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
