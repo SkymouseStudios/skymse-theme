@@ -206,7 +206,7 @@ p {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto;
+  hyphens: none;
   -webkit-hyphenate-before: 2;
   -webkit-hyphenate-after: 3;
   hyphenate-lines: 3;

@@ -626,7 +626,7 @@ p {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto;
+  hyphens: none;
   -webkit-hyphenate-before: 2;
   -webkit-hyphenate-after: 3;
   hyphenate-lines: 3;
@@ -2616,6 +2616,9 @@ section {
   display: block;
   position: relative;
   height: 100vh;
+  background-image: url("../images/skymouse_banner.svg");
+  background-position: center;
+  background-size: cover;
   border-bottom: 30px solid #70C1DB; }
   .header .bg-image {
     position: absolute;
@@ -2678,10 +2681,9 @@ section {
 #container #page #promise {
   z-index: -5; }
   #container #page #promise aside.px-fore {
-    width: 35%;
     z-index: 4;
     right: auto;
-    left: 250px;
+    left: 20%;
     top: 150px; }
     @media (max-width: 768px) {
       #container #page #promise aside.px-fore {
@@ -2693,6 +2695,7 @@ section {
         width: 60%; } }
     #container #page #promise aside.px-fore .content {
       width: 100%;
+      max-width: 450px;
       color: white; }
   #container #page #promise div.terrain {
     z-index: 3;
@@ -3181,13 +3184,13 @@ main #main .main {
     background-color: #70C1DB;
     transition: 0.5s ease-in-out; }
     #page.our-work section #slideSectionMotion #Franciscan {
-      background-image: url(../images/our-work/motion-fus.jpeg); }
+      background-image: url(../images/our-work/motion-fus.jpg); }
     #page.our-work section #slideSectionMotion #MesaTec {
-      background-image: url(../images/our-work/motion-mesa.jpeg); }
+      background-image: url(../images/our-work/motion-mesa.jpg); }
     #page.our-work section #slideSectionMotion #Resource {
-      background-image: url(../images/our-work/motion-rcre.jpeg); }
+      background-image: url(../images/our-work/motion-rcre.jpg); }
     #page.our-work section #slideSectionMotion #Scan {
-      background-image: url(../images/our-work/motion-scan.jpeg); }
+      background-image: url(../images/our-work/motion-scan.jpg); }
   #page.our-work section #slideSectionAudio {
     height: 100%;
     width: 100%;
@@ -3195,16 +3198,12 @@ main #main .main {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #70C1DB;
+    background-color: #F99C1C;
     transition: 0.5s ease-in-out; }
-    #page.our-work section #slideSectionAudio #Franciscan {
-      background-image: url(../images/our-work/motion-fus.png); }
     #page.our-work section #slideSectionAudio #MesaTec {
-      background-image: url(../images/our-work/motion-mesa.png); }
+      background-image: url(../images/our-work/audio-mesa.jpg); }
     #page.our-work section #slideSectionAudio #Resource {
-      background-image: url(../images/our-work/motion-rcre.png); }
-    #page.our-work section #slideSectionAudio #Scan {
-      background-image: url(../images/our-work/motion-scan.png); }
+      background-image: url(../images/our-work/audio-rcre.jpg); }
   #page.our-work section #slideSectionDev {
     height: 100%;
     width: 100%;
@@ -3212,16 +3211,12 @@ main #main .main {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #70C1DB;
+    background-color: #817F82;
     transition: 0.5s ease-in-out; }
     #page.our-work section #slideSectionDev #Man {
-      background-image: url(../images/our-work/dev-man.png); }
+      background-image: url(../images/our-work/dev-man.jpg); }
     #page.our-work section #slideSectionDev #Welch {
-      background-image: url(../images/our-work/dev-welch.png); }
-    #page.our-work section #slideSectionDev #Resource {
-      background-image: url(../images/our-work/dev-rcre.png); }
-    #page.our-work section #slideSectionDev #Scan {
-      background-image: url(../images/our-work/motion-scan.png); }
+      background-image: url(../images/our-work/dev-welch.jpg); }
   #page.our-work section #slideSectionDesign {
     height: 100%;
     width: 100%;
@@ -3229,16 +3224,12 @@ main #main .main {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #70C1DB;
+    background-color: #FCD0A1;
     transition: 0.5s ease-in-out; }
-    #page.our-work section #slideSectionDesign #Franciscan {
-      background-image: url(../images/our-work/motion-fus.png); }
-    #page.our-work section #slideSectionDesign #MesaTec {
-      background-image: url(../images/our-work/motion-mesa.png); }
-    #page.our-work section #slideSectionDesign #Resource {
-      background-image: url(../images/our-work/motion-rcre.png); }
-    #page.our-work section #slideSectionDesign #Scan {
-      background-image: url(../images/our-work/motion-scan.png); }
+    #page.our-work section #slideSectionDesign #Welch {
+      background-image: url(../images/our-work/design-welch.jpg); }
+    #page.our-work section #slideSectionDesign #WillysFarm {
+      background-image: url(../images/our-work/design-wf.jpg); }
   #page.our-work section img.right-close-arrow {
     width: 40px;
     top: 20px;
@@ -3273,7 +3264,7 @@ main #main .main {
       text-align: left;
       vertical-align: bottom; }
       #page.our-work section .project .innerProject h3 {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin-bottom: 5px; }
       #page.our-work section .project .innerProject p {
         margin: 0; }
