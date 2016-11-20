@@ -219,12 +219,12 @@ $serif:             "Arvo", Cambria, Times New Roman, Times, serif;
 /* some nice typographical defaults */
 p {
   -ms-word-wrap: break-word;
-  word-break: break-word; //non-standart css for webkit
+  word-break: break-word; //non-standard css for webkit
   word-wrap: break-word;
   // cleaning up the ragged lines and breaks
-  -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-          hyphens: auto;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
   // sets a minimum number of characters before and after the break
   -webkit-hyphenate-before: 2;
    -webkit-hyphenate-after: 3;
