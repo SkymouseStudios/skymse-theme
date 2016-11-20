@@ -427,6 +427,11 @@ section {
     		width: 33.33%;
     		margin: 0 auto;
     		padding: 20px;
+    		text-align: center;
+
+    		img {
+    			width: 100px;
+    		}
 
     		@media (max-width: 768px) {
     			float: none;

@@ -34,6 +34,7 @@
 				</div>
 				
 				<aside>
+				<img alt="Story" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Story.svg">
 					<div class="story">
 						<h3>Story</h3>
 						<p>Story is the passion behind your purpose. Anyone can offer a product. Only you can offer your story.</p>
@@ -41,6 +42,7 @@
 				</aside>
 				
 				<aside>
+					<img alt="Design" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Design.svg">
 					<div class="design">
 						<h3>Design</h3>
 						<p>You only get one shot at a first impression. When you design your brand intentionally, you make sure your first impression counts.</p>
@@ -48,6 +50,7 @@
 				</aside>
 				
 				<aside>
+					<img alt="Function" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Function.svg">
 					<div class="function">
 						<h3>Function</h3>
 						<p>When your brand tells it’s story by intentional design through a functional experience, true branding is the result. Your brand becomes something relatable, desireable, and people want to be a part of it.</p>
