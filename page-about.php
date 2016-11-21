@@ -11,11 +11,11 @@
 		<section class="past cf">
 			<aside class="left">
 				<div class="content">
-					<h3>The Past</h3>
+					<h3>A Brief History</h3>
 					<h4>Boys will become men.</h4>
-					<p>Skymouse Studios was started out of a college dorm on a rainy night using only a shattered iPhone 4s. At the time, the team had no idea what was ahead of them. In fact they still don't really know. In the hot steamy summer of 2015, two friends went on a road trip in a 1989 Toyota Corolla.
+					<p>Skymouse Studios was started out of a college dorm on a rainy night using only a shattered iPhone 4s. At the time, the team had no idea what was ahead of them. In fact they still don't really know.
 					</p>
-					<p>Skymouse slowly matured as the two friends graduated school and ended up in Indianapolis. We lived in a small dark apartment together and didn’t get much work done. But we argued a lot and talked about how cool we were.
+					<p>Skymouse slowly matured as the two friends graduated school and ended up in Indianapolis. They lived in a small dark apartment together and didn’t get much work done. But we argued a lot and talked about how cool we were.
 					Wives were found, and money needed to be made so we finally buckled down and started doing cool stuff.</p>
 				</div>
 			</aside>
