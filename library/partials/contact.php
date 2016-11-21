@@ -1,17 +1,43 @@
 <!-- Convert the contact form into a PHP Partial that is retrieved -->
 <!-- Are we using this still? -->
 
+<h3>What's Your Cheese?</h3>
+
+<form role="form" action="#proposal" method="post">
+
+	<label for="first_name">First Name</label>
+	<input type="text" name="first_name" placeholder="First Name" value="<?php echo htmlspecialchars($_POST['first_name']); ?>" required="required">
+
+	<label for="last_name">Last Name</label>
+	<input type="text" name="last_name" placeholder="Last Name" value="<?php echo htmlspecialchars($_POST['last_name']); ?>" required="required">
+
+	<label for="email">Email Address</label>
+	<input type="email" name="email" placeholder="Email Address" value="<?php echo htmlspecialchars($_POST['email']); ?>" required="required">
+
+	<label for="message"><?php echo htmlspecialchars($_POST['message']);?>Tell us about yourself?</label>
+	<textarea name="message" placeholder="What's going on?"></textarea>
+
+	<label>Subscribe to our Newsletter!</label>
+
+
+	<input name="submit" type="submit" alt="Let's Get Started!">
+
+	<?php echo $result; ?>	
+
+</form>
+
+
 <?php
 	if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
+		$last_name = $_POST['last_name'];
+		$first_name = $_POST['first_name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$human = intval($_POST['human']);
 		$from = 'Skymse Contact Form'; 
-		$to = 'hullo@skymse.com'; 
+		$to = 'phanus23@gmail.com'; 
 		$subject = 'Message from skymse.com';
 		
-		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+		$body = "From: $first_name\n E-Mail: $email\n Message:\n $message";
  
 		// Check if name has been entered
 		if (!$_POST['name']) {
@@ -27,13 +53,9 @@
 		if (!$_POST['message']) {
 			$errMessage = 'Please enter your message';
 		}
-		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
  
 // If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+if (!$errName && !$errEmail && !$errMessage ) {
 	if (mail ($to, $subject, $body, $from)) {
 		$result='<div class="alert alert-success">We cannot wait to meet you.</div>';
 	} else {
@@ -42,3 +64,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 }
 	}
 ?>
+
+
+
+
+
+
+
+

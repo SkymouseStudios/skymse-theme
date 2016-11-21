@@ -86,8 +86,7 @@
 				</aside>
 
                 <aside>
-                    <?php include_once("library/partials/john-contact.php"); ?>
-                    
+                    <?php include_once("library/partials/contact.php"); ?>
                 </aside>
 
 			</section>
