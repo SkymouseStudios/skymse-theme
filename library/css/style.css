@@ -2681,9 +2681,9 @@ section {
   z-index: -5; }
   #container #page #promise aside.px-fore {
     z-index: 4;
-    right: auto;
-    left: 20%;
-    top: 230px; }
+    position: absolute;
+    left: 16%;
+    top: 22%; }
     @media (max-width: 768px) {
       #container #page #promise aside.px-fore {
         left: 20%;
@@ -2810,13 +2810,14 @@ section {
 #container #page #proposal {
   z-index: 2;
   border-top: 30px solid #70C1DB;
-  background-color: #5c9ead; }
+  background-color: #5c9ead;
+  height: auto; }
   @media (max-width: 768px) {
     #container #page #proposal {
       height: auto; } }
   #container #page #proposal aside {
     width: 50%;
-    padding: 150px 5%;
+    padding: 5%;
     height: 100%;
     float: left;
     text-align: center; }
@@ -2832,7 +2833,8 @@ section {
       padding: 20px; }
     #container #page #proposal aside img {
       margin: 0 auto;
-      display: block; }
+      display: block;
+      width: 100%; }
     @media (max-width: 768px) {
       #container #page #proposal aside > img {
         display: none; } }
