@@ -326,9 +326,9 @@ section {
 
 		aside.px-fore {
 			z-index: 4;
-			right: auto;
-			left: 20%;
-			top: 230px;
+        	position: absolute;
+	        left: 16%;
+	        top: 22%;
 
 			@media (max-width: 768px) {
     			left: 20%;
@@ -528,6 +528,7 @@ section {
     	z-index: 2;
     	border-top: 30px solid $lblue;
     	background-color: $dblue;
+    	height: auto;
 
     	@media (max-width: 768px) {
     		height: auto;
