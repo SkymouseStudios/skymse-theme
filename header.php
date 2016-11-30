@@ -96,8 +96,7 @@
 
 						<?php   if ( is_front_page() ) { ?>
 						    
-						   <h1>Skymouse</h1>
-							<h4>Studios</h4>
+						   <h1>Skymouse Studios</h1>
 
 						<? } else { ?>
 
