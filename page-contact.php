@@ -17,8 +17,9 @@
 			<aside>
 				<div class="content">
 					<h3>How to get in touch:</h3>
-					<p>We take alot of pride in our work and want to help you take pride in your work. We would love to talk to you and find out if maybe we can work together. Just like most pharmacudical drugs, Skymouse is not for everyone.</p>
-					<p>We would love to give you a number to call, but we have to make sure we can help everyone and going through email to start helps us do that. Send us an email and we will do our best to get back to you as soon as we can.</p>
+					<p>We would love to talk to you and find out if we can work together! </p>
+
+					<p>Send us a message here and we will do our best to get back to you as soon as we can!</p>
 				</div>
 				
 			</aside>
