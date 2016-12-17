@@ -46,7 +46,7 @@ http://sachagreif.com/sass-color-variables/
 Stylesheet: Typography
 ******************************************************************/
 @import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?-cr6w4i");

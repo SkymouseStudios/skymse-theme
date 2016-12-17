@@ -28,7 +28,7 @@ the whole project.
  * Correct `block` display not defined in IE 8/9.
  */
 @import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 article,
 aside,
 details,
