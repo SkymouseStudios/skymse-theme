@@ -21,8 +21,6 @@ http://html5reset.org (super clean and great markup)
 https://github.com/viewportindustries/starkers (not sure if it's still active, but still good)
 
 ******************************************************************/
-
-.sticky {}          /* DO NOT EDIT THIS */
-.gallery-caption {} /* THESE ARE USELESS */
-.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
-
+/* DO NOT EDIT THIS */
+/* THESE ARE USELESS */
+/* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */

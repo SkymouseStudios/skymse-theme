@@ -27,6 +27,8 @@ the whole project.
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 article,
 aside,
 details,
@@ -659,6 +661,22 @@ h3 {
   font-weight: 800;
   border-bottom: 13px solid white;
   display: inline-block; }
+
+.social-media ul {
+  list-style: none; }
+.social-media a {
+  padding: 15px 20px;
+  color: #f8f9fa; }
+  .social-media a:hover {
+    color: white; }
+.social-media li {
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 5px;
+  transition: .5s; }
+.social-media li:hover {
+  background-color: #70C1DB;
+  transition: .5s; }
 
 /******************************************************************
 Stylesheet: Sass Functions

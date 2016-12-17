@@ -215,6 +215,8 @@ body#tinymce.wp-editor {
   /******************************************************************
   Stylesheet: Typography
   ******************************************************************/
+  @import url(http://fonts.googleapis.com/css?family=Lato);
+  @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
   /*
   The following is based of Typebase:
   https://github.com/devinhunt/typebase.css
@@ -630,6 +632,21 @@ body#tinymce.wp-editor {
     font-weight: 800;
     border-bottom: 13px solid white;
     display: inline-block; }
+  body#tinymce.wp-editor .social-media ul {
+    list-style: none; }
+  body#tinymce.wp-editor .social-media a {
+    padding: 15px 20px;
+    color: #f8f9fa; }
+    body#tinymce.wp-editor .social-media a:hover {
+      color: white; }
+  body#tinymce.wp-editor .social-media li {
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: .5s; }
+  body#tinymce.wp-editor .social-media li:hover {
+    background-color: #70C1DB;
+    transition: .5s; }
   body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
     color: #fff;
     /* on hover */
