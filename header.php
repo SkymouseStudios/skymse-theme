@@ -159,6 +159,6 @@
 
 				</div>
 
-				<a title="Please Scroll Down" href="<?php echo home_url(); ?>/#" rel="nofollow"><img alt="Down Arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/down-arrow.svg"></a>
+				<a title="Please Scroll Down" href="<?php echo the_permalink(); ?>#promise" rel="nofollow"><img alt="Down Arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/down-arrow.svg"></a>
 
 			</header>
