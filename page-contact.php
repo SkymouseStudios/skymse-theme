@@ -86,7 +86,6 @@
 				</aside>
 
                 <aside>
-                    <?php include_once("library/partials/contact.php"); ?>
                 </aside>
 
 			</section>

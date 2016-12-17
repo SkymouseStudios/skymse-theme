@@ -116,7 +116,7 @@
 				<aside>
 					<h4>So how much is this gonna cost?</h4>
 					<p>At Skymouse, we make sure you get exactly what you pay for and that means you're happy with your product. We find exactly where you need to be and help you get there.</p>
-					<p>Interested? Sending us a message is the best way to get in touch. We're sorry if you don't like messages, but it's just the best way to do things right now!</p>
+					<p>Interested? Sending us a message is the best way to get in touch.</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
 					<!-- <a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
@@ -125,7 +125,9 @@
 
 				<aside>
 					<h3>What's Your Cheese?</h3>
-					<form>
+                    <h4>Shoot us an email at <a href="mailto:sos@skymse.com" style="text-decoration: underline;">s.o.s.@skymse.com</a>, we'd love to hear from you.</h4>
+
+					<!-- <form>
 						<label>First Name</label>
 						<input type="text" name="First Name" placeholder="First Name" required="required">
 						<label>Last Name</label>
@@ -141,7 +143,7 @@
 							<img src="<?php echo get_template_directory_uri();?>/library/images/sky-button.svg" alt="Let's Get Started!">
 						</button>
 
-					</form>
+					</form> -->
 				</aside>
 			</section>
 		</div>
