@@ -48,6 +48,22 @@
 						</div>
 						<!-- End MailChimp Signup Form -->
 						<p>Everything we do, we want to do better. </p>
+
+						<div class="social-media">
+						<ul>
+							<li><a href="https://bit.ly/skyBook" class="social-icon"> <i class="fa fa-facebook"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyGram" class="social-icon"> <i class="fa fa-instagram"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyTweets" class="social-icon"> <i class="fa fa-twitter"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyLinkedIn" class="social-icon"> <i class="fa fa-linkedin"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyGoogle" class="social-icon"> <i class="fa fa-google-plus"></i>
+							</a></li>
+						</ul>
+						</div>
+
 					</div>
 				</aside>
 			</section>
@@ -98,6 +114,14 @@
 							<h4><?php echo(types_render_field( "professional-title", array( 'raw' => true) )); ?></h4>
 							<p><?php echo(types_render_field( "profile-description", array( 'raw' => false) )); ?>
 							</p>
+							<div class="social-media">
+								<ul>
+									<li><a href="<?php echo(types_render_field( "profile-twitter", array( 'raw' => false) )); ?>" class="social-icon"> <i class="fa fa-twitter"></i>
+									</a></li>
+									<li><a href="<?php echo(types_render_field( "profile-linkedin", array( 'raw' => false) )); ?>" class="social-icon"> <i class="fa fa-linkedin"></i>
+									</a></li>
+									</ul>
+							</div>
 						</div>
 					</aside>
 				</section>

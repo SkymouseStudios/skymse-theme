@@ -3,6 +3,8 @@ Stylesheet: Typography
 ******************************************************************/
 
 // Icon Font (Menu Icons, Social Icons, Etc.)
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 @font-face {
   font-family: 'icomoon';
@@ -265,4 +267,39 @@ h3 {
   border-bottom: 13px solid white;
   display: inline-block;
 }
+
+.social-media {
+  ul {
+    list-style: none;
+  }
+
+  a {
+    padding: 15px 20px;
+    color: $light-gray;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: .5s;
+  }
+
+  li:hover {
+    background-color: $lblue;
+    transition: .5s;
+  }
+}
+
+
+
+
+
+
+
+
 
