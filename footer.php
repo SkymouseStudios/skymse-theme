@@ -10,33 +10,21 @@
 				<!-- This needs to be converted to a real-live Wordpress Navigation system. I am just imtimdated. -->
 				<nav class="footer">
 				
+						<div class="social-media">
 					<ul>
-						<li>
-							<a title="About" href="/index.php/about">About</a>
-						</li>
-
-						<li>
-							<a title="Our Work" href="/index.php/our-work">Our Work</a>
-						</li>
-
-						<li>
-							<a title="Contact Skymouse" href="/index.php/contact">Contact</a>
-						</li>
-						<!-- <li>
-							<a title="Tutorials" href="#">Tutorials</a>
-						</li> -->
-						<!-- <li>
-							<a title="Blog" href="/index.php/blog">Blog</a>
-						</li> -->
-						<!-- <li>
-							<a title="Downloads" href="#">Downloads</a>
-						</li> -->
-						
-
-						<!-- <li>
-							<a class="btn" title="Subscribe" href="#">Subscribe</a>
-						</li> -->
-					</ul>
+							<li><a href="https://bit.ly/skyBook" class="social-icon"> <i class="fa fa-facebook"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyGram" class="social-icon"> <i class="fa fa-instagram"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyTweets" class="social-icon"> <i class="fa fa-twitter"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyLinkedIn" class="social-icon"> <i class="fa fa-linkedin"></i>
+							</a></li>
+							<li><a href="https://bit.ly/skyGoogle" class="social-icon"> <i class="fa fa-google-plus"></i>
+							</a></li>
+						</ul>
+					</div>
+				
 				</nav>
 				<!-- End imposter navigation -->
 
