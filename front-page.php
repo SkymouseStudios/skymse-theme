@@ -115,13 +115,9 @@
 				</aside>
 
 				<aside>
-					<h3>Hey, What's Your Name?</h3>
-                    <h4>Shoot us an email at <a href="mailto:sos@skymse.com" style="text-decoration: underline;">s.o.s.@skymse.com</a>, we'd love to hear from you.</h4>
 
-					<!-- <form>
-					<?php get_template_part('library/partials/','contact'); ?>
-					</form> -->
-					
+					<?php get_template_part('library/partials/contact'); ?>
+		
 				</aside>
 			</section>
 		</div>

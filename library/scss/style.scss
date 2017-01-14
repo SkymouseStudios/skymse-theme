@@ -567,33 +567,9 @@ section {
     		}
 
     		form {
-    			margin: 0px auto;
-    			max-width: 480px;
-    			min-width: 300px;
-    			text-align: center;
-
-    			label {
-    				display: none;
-    			}
-
-    			input[type="text"] {
-    				width: 45%;
-
-    			}
-
-    			button[type=submit] {
-    				background-color: transparent;
-    				border:none;
-					width: 250px;
-					color: transparent;
-					margin: 0 auto;
-					height: 100px;
-					display: inline-block;
-    			}
-
-    			img:hover {
-    			}
-    		}
+	          text-align: left;
+	          margin-top: 40px;
+	      }
 
     	}
 	}
