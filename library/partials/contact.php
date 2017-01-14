@@ -1,6 +1,3 @@
-<!-- Convert the contact form into a PHP Partial that is retrieved -->
-<!-- Are we using this still? -->
-
 <h3>Got a Project?</h3>
 
 <form role="form" action="#proposal" method="post">
