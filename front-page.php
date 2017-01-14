@@ -10,8 +10,8 @@
 				<!-- PARALLAX Way Front -->
 				<aside class="px-fore">
 					<div class="content">
-						<h2>WHAT YOU NEED. WHAT YOU PAY FOR.</h2>
-						<p>Skymouse Studios helps you increase profits and customer engagement through a meaningful brand identity and experience.</p>
+						<h2>Skymouse helps you tell stories, design better, and develop a brand people love. When people love your brand they give you money.</h2>
+						<p>Everyone and their mother can use photoshop. Anyone can build a Wordpress template. We build beautiful brands that work. There are too many “companies” that make money off mediocrity. It’s our goal to change all that.</p>
 					</div>
 				</aside>
 				
@@ -28,8 +28,8 @@
 			<section id="process" class="cf">
 				<div class="top">
 					<div class="brand-experience">
-						<h3>Brand Experience</h3>
-						<p>Show your customers and clients that you have exactly what they need. Help them experience your brand. Here's how we can do that together.</p>
+						<h3>What is a Brand?</h3>
+						<p>A brand isn’t just a logo and custom-made coffee mugs. Show your customers that you have exactly what they need. Help them experience your brand. Here's how we can do that together:</p>
 					</div>
 				</div>
 				
@@ -37,7 +37,7 @@
 				<img alt="Story" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Story.svg">
 					<div class="story">
 						<h3>Story</h3>
-						<p>Story is the passion behind your purpose. Anyone can offer a product. Only you can offer your story.</p>
+						<p>There should be a natural flow to every customer’s journey. (Spoiler: You’re in one now.) Is your story a clear aspect of your brand? </p>
 					</div>
 				</aside>
 				
@@ -45,7 +45,7 @@
 					<img alt="Design" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Design.svg">
 					<div class="design">
 						<h3>Design</h3>
-						<p>You only get one shot at a first impression. When you design your brand intentionally, you make sure your first impression counts.</p>
+						<p>People go on and on about design. What is it? It's how your customers see you. Design should be a visual representation of your story (see first point). Don’t use cover-up when you can get a face-lift.</p>
 					</div>	
 				</aside>
 				
@@ -53,7 +53,7 @@
 					<img alt="Function" src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_Function.svg">
 					<div class="function">
 						<h3>Function</h3>
-						<p>When your brand tells it’s story by intentional design through a functional experience, true branding is the result.</p>
+						<p>Intuitive. Easy to use. Great services and amazing products mean nothing if people don’t understand your brand. Don’t be a bike with no wheels or a website with no scroll-bar.</p>
 					</div>
 				</aside>
 
