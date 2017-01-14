@@ -87,7 +87,7 @@ if (!$errName && !$errEmail && !$errMessage ) {
 	if (wp_mail ($to, $subject, $body, $from)) {
 		$result='<div class="alert alert-success">We cannot wait to meet you.</div>';
 	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later, or email us at <a href="mailto:hullo@skymse.com">hullo@skymse.com</a></div>';
+		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later, or shoot us an email at <a href="mailto:hullo@skymse.com">hullo@skymse.com</a></div>';
 	}
 }
 
