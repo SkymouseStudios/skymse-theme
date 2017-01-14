@@ -42,6 +42,10 @@
 
 	<input name="submit" type="submit" alt="Let's Get Started!">
 
+	<button name="submit" type="submit" value="submit">
+		<img src="<?php echo get_template_directory_uri();?>/library/images/sky-button.svg" alt="Let's Get Started!">
+	</button>
+
 	<?php echo $result; ?>
 
 
