@@ -662,22 +662,6 @@ h3 {
   border-bottom: 13px solid white;
   display: inline-block; }
 
-.social-media ul {
-  list-style: none; }
-.social-media a {
-  padding: 15px 20px;
-  color: #f8f9fa; }
-  .social-media a:hover {
-    color: white; }
-.social-media li {
-  display: inline-block;
-  font-size: 1.5em;
-  border-radius: 5px;
-  transition: .5s; }
-.social-media li:hover {
-  background-color: #70C1DB;
-  transition: .5s; }
-
 /******************************************************************
 Stylesheet: Sass Functions
 ******************************************************************/
@@ -1116,6 +1100,19 @@ and it will create a button dependant on those variables.
   .arrow-btn:hover {
     color: white; }
 
+.social-media ul {
+  list-style: none; }
+.social-media a {
+  padding: .5em;
+  color: #f8f9fa; }
+  .social-media a:hover {
+    color: white; }
+.social-media li {
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 5px;
+  transition: .5s; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -1156,15 +1153,15 @@ textarea,
   display: inline-block;
   height: 50px;
   line-height: 1em;
-  padding: 10px;
-  margin: 2%;
+  padding: 8px;
+  margin: 0px 0px 2% 0px;
   width: 96%;
   font-size: 1em;
   color: white;
   border-radius: 10px;
   vertical-align: middle;
   box-shadow: none;
-  border: 0;
+  border: 2px solid #6aa6b4;
   font-family: "Arvo", Cambria, Times New Roman, Times, serif;
   background-color: #70C1DB;
   -webkit-transition: background-color 0.24s ease-in-out;
@@ -1391,11 +1388,11 @@ input[type="password"] {
   letter-spacing: 0.3em; }
 
 textarea {
-  padding: 10px;
+  padding: 8px;
   max-width: 100%;
   min-height: 120px;
   line-height: 1.5em;
-  margin: 2%; }
+  margin: 0px 0px 2% 0px; }
 
 select {
   -webkit-appearance: none;
@@ -1526,7 +1523,22 @@ form#searchbar #searchbar-submit {
 
   #mc_embed_signup .button {
     width: 100%;
-    margin: 0; } }
+    margin: 0; }
+
+  form {
+    margin: 30px auto;
+    max-width: 480px;
+    min-width: 300px;
+    text-align: left; }
+    form label {
+      text-transform: uppercase;
+      font-size: .8em; }
+    form input[type="submit"] {
+      text-align: center;
+      border-radius: 5px;
+      margin: 5px auto;
+      background-color: none;
+      -webkit-appearance: none; } }
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -2239,7 +2251,7 @@ you can add resource intensive styles.
     font-size: 3.53em; }
 
   h2 {
-    font-size: 2.5em; }
+    font-size: 1.8em; }
 
   h3 {
     font-size: 2em; }
@@ -2716,7 +2728,7 @@ section {
       color: white; }
   #container #page #promise div.terrain {
     z-index: 3;
-    background-image: url(../images/bg/terrain.png);
+    background-image: url(../images/bg/terrain-sm.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -2732,7 +2744,7 @@ section {
     background-repeat: no-repeat; }
   #container #page #promise div.sky {
     z-index: 0;
-    background-image: url(../images/bg/space.jpg);
+    background-image: url(../images/bg/space-sm.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -2757,7 +2769,7 @@ section {
         padding: 10%; } }
     #container #page #process div.brand-experience p {
       margin: 0 auto;
-      width: 45%;
+      width: 55%;
       text-align: center;
       font-size: 2em; }
       @media (max-width: 768px) {
@@ -2857,22 +2869,8 @@ section {
       #container #page #proposal aside > img {
         display: none; } }
     #container #page #proposal aside form {
-      margin: 0px auto;
-      max-width: 480px;
-      min-width: 300px;
-      text-align: center; }
-      #container #page #proposal aside form label {
-        display: none; }
-      #container #page #proposal aside form input[type="text"] {
-        width: 45%; }
-      #container #page #proposal aside form button[type=submit] {
-        background-color: transparent;
-        border: none;
-        width: 250px;
-        color: transparent;
-        margin: 0 auto;
-        height: 100px;
-        display: inline-block; }
+      text-align: left;
+      margin-top: 40px; }
 
 #container footer.footer {
   border-top: 20px solid white;
@@ -2917,7 +2915,6 @@ section {
             position: relative;
             display: inline-block;
             font-family: "Arvo", Cambria, Times New Roman, Times, serif;
-            color: #FCD0A1;
             font-weight: 300;
             font-size: .7em; }
           #container footer.footer div#inner-footer.wrap.cf nav.footer ul li a.btn, #container footer.footer div#inner-footer.wrap.comment-respond nav.footer ul li a.btn {
@@ -3105,13 +3102,13 @@ main #main .main {
   background-position: left top;
   border-top: 20px solid #70C1DB; }
   #page.our-work section.parallax.motion {
-    background-image: url(../images/motion/motion-bg.png); }
+    background-image: url(../images/motion/motion-bg-sm.png); }
   #page.our-work section.parallax.audio {
-    background-image: url(../images/motion/audio-bg.png); }
+    background-image: url(../images/motion/audio-bg-sm.png); }
   #page.our-work section.parallax.dev {
-    background-image: url(../images/motion/dev-bg.png); }
+    background-image: url(../images/motion/dev-bg-sm.png); }
   #page.our-work section.parallax.design {
-    background-image: url(../images/motion/design-bg.png); }
+    background-image: url(../images/motion/design-bg-sm.png); }
   #page.our-work section.parallax aside {
     z-index: 10;
     width: 100%; }
