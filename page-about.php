@@ -13,10 +13,10 @@
 				<div class="content">
 					<h3>A Brief History</h3>
 					<h4>Boys will become men.</h4>
-					<p>Skymouse Studios was started out of a college dorm on a rainy night using only a shattered iPhone 4s. At the time, the team had no idea what was ahead of them. In fact they still don't really know.
+					<p>Everyone and their mother can use photoshop. Anyone can slap a Wordpress template up in the internet. There are too many “companies” that make money off mediocrity.  It’s our goal to change all that.
 					</p>
-					<p>Skymouse slowly matured as the two friends graduated school and ended up in Indianapolis. They lived in a small dark apartment together and didn’t get much work done. But we argued a lot and talked about how cool we were.
-					Wives were found, and money needed to be made so we finally buckled down and started doing cool stuff.</p>
+					<p>In the hot summer of 2015, two friends went on a road trip across the country in a 1989 Toyota Corolla. On that trip we talked about everything we loved doing, the things the world was doing wrong and how we wanted to provide solutions that people would love. At our old jobs we were shocked at how many media firms were selling crappy designs and charging an arm and a leg for it! Utter robbery! We realized all we needed was a name and eight hours later Skymouse was born. (SkyRat just wasn’t as catchy.)</p>
+					<p>We moved out to Indianapolis and lived in a small dark apartment together and didn’t get much work done. But we argued a lot and talked about how cool we were. Wives were found, and money needed to be made so we finally buckled down and started doing cool stuff that actually got us places.</p>
 				</div>
 			</aside>
 		</section>
@@ -27,7 +27,7 @@
 					<div class="content">
 						<h3>The Present</h3>
 						<h4>We are on a mission.</h4>
-						<p>Everyone and their mother can use photoshop. Anyone can build a Wordpress template. We build beautiful brands that work. We got our cheese and now we want to help others reach their’s. There are too many “companies” that make money off mediocrity. It’s our goal to change all that. </p>
+						<p>Every project is different and has new, exciting challenges. We love what we do and we try to share it with anyone who will listen. Check out some of our past projects here. You can also follow the action (almost) live on one of our social media accounts.</p>
 						<p>	
 						We love our families and our friends and are always trying to help the people that we work with and interact with. We may not be saving lives, but we can definitely make people’s lives easier and (hopefully) happier.
 						</p>
@@ -75,7 +75,7 @@
 					<div class="content">
 						<h3>The Future.</h3>
 						<h4>We have big plans.</h4>
-						<p>We want to do great things. We have so many ideas and dreams, som crazy, others not to far off into the future. For us Skymouse isn’t just where we work–It’s a lifestyle. We are craftsman and as long as we are crafting something, we are happy. We love entertainment and are always trying to find new ways to keep people entertained, including ourselves. No matter what family comes first and we are just trying to make our way through the universe to provide the best we have to offer. We want to be proud of what we do. Our wives demand it. </p>
+						<p>We want to do great things. We have so many ideas and dreams, some crazy, others not to far off into the future. For us, Skymouse isn’t just where we work–it’s a lifestyle. We are craftsman and as long as we are crafting something, we are happy. We love entertainment and are always trying to find new ways to keep people entertained, including ourselves. No matter what, family comes first and we are just trying to make our way through the universe to provide the best we have to offer. We want to be proud of what we do. Our wives demand it.</p>
 						<ul>
 						<li>+	Full Audio Studio</li>
 						<li>+	Television Shows approproate for our kids</li>
