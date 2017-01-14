@@ -108,7 +108,7 @@
 			<section id="proposal" class="cf">
 				
 				<aside>
-					<h4>Got a project?</h4>
+					<h3>Got a project?</h3>
 					<p>We can help. Fill out this quick form. It’s like ad-libs but it actually gets you places.</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
