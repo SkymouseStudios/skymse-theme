@@ -160,5 +160,28 @@ and it will create a button dependant on those variables.
 }
 
 
+.social-media {
+  ul {
+    list-style: none;
+  }
+
+  a {
+    padding: .5em;
+    color: $light-gray;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 5px;
+    transition: .5s;
+  }
+}
+
+
 
 
