@@ -18,7 +18,7 @@
 			<aside>
 				<div class="content left">
 					<h3>Motion</h3>
-					<p>Your brand moves your customers. Show them why.</p>
+					<p>Move your customers. Make them cry. (tears of joy)</p>
 					
 					<div id="openButtonMotion" title="See Our Projects">
 					<img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"><span>See Motion Projects</span>
@@ -65,52 +65,12 @@
 
 		</section>
 
-
-
-
-		<!-- AUDIO PROJECTS -->
-		<section class="parallax audio cf">
-			<aside>
-				<div class="content right">
-					<h3>Audio</h3>
-					<p>A pretty face needs a voice to match. Listen to your customers, then they will listen to you.</p>
-					
-					<div id="openButtonAudio" title="See Our Projects">
-					<span>See Audio Projects</span><img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg">
-					</div>
-				</div>
-			</aside>
-
-			<!-- BEGIN SLIDER -->
-			<div id="slideSectionAudio" class="overlayRightOff">  
-	            <a href="javascript:void(0)" id="closeButtonAudio"><img class="left-close-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"></a>
-
-	            <div class="project" id="Resource">
-	                <div class="innerProject">
-		                <h3>RESOURCE Commercial Real Estate</h3>
-		                <p>Soundtrack, sound design and voice over</p>
-		                <a href="https://soundcloud.com/user-687707994/rcre-animation-soundtrack">Listen Here</a>
-	                </div>    
-	            </div>
-	    
-	            <div class="project" id="MesaTec">
-	                <div class="innerProject">
-		                <h3>Mesa Technical Associates</h3>
-		                <p>Soundtrack and voice over</p>
-		                <a href="https://soundcloud.com/user-687707994/mesa-promo-vid-soundtrack">Listen Here</a>
-	                </div>
-	            </div>
-        	</div>
-        	<!-- END SLIDER -->
-
-		</section>
-				
 		<!-- DEVELOPMENT PROJECTS -->
 		<section class="parallax dev cf">
 			<aside>
 				<div class="content left">
 					<h3>Development</h3>
-					<p>The best exposure you can get is online. Reach your customers where they want to be reached.</p>
+					<p>Reach your customers where they are. (On the internet)</p>
 
 					<div id="openButtonDev" title="See Our Projects">
 					<img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"><span>See Development Projects</span>
@@ -145,7 +105,7 @@
 			<aside>
 				<div class="content right">
 					<h3>Design</h3>
-					<p>From user experience to customer experience, design directs the meaning behind your brand.</p>
+					<p>From user experience to customer experience. (Make it beautiful)</p>
 
 					<div id="openButtonDesign" title="See Our Projects">
 					<span>See Design Projects</span><img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg">
@@ -174,6 +134,45 @@
         	<!-- END SLIDER -->
 
 		</section>
+
+		<!-- AUDIO PROJECTS -->
+		<section class="parallax audio cf">
+			<aside>
+				<div class="content right">
+					<h3>Audio</h3>
+					<p>Listen to your customers, and they will listen to you. (Hopefully)</p>
+					
+					<div id="openButtonAudio" title="See Our Projects">
+					<span>See Audio Projects</span><img class="left-open-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/right-arrow.svg">
+					</div>
+				</div>
+			</aside>
+
+			<!-- BEGIN SLIDER -->
+			<div id="slideSectionAudio" class="overlayRightOff">  
+	            <a href="javascript:void(0)" id="closeButtonAudio"><img class="left-close-arrow" src="<?php echo get_template_directory_uri(); ?>/library/images/left-arrow.svg"></a>
+
+	            <div class="project" id="Resource">
+	                <div class="innerProject">
+		                <h3>RESOURCE Commercial Real Estate</h3>
+		                <p>Soundtrack, sound design and voice over</p>
+		                <a href="https://soundcloud.com/user-687707994/rcre-animation-soundtrack">Listen Here</a>
+	                </div>    
+	            </div>
+	    
+	            <div class="project" id="MesaTec">
+	                <div class="innerProject">
+		                <h3>Mesa Technical Associates</h3>
+		                <p>Soundtrack and voice over</p>
+		                <a href="https://soundcloud.com/user-687707994/mesa-promo-vid-soundtrack">Listen Here</a>
+	                </div>
+	            </div>
+        	</div>
+        	<!-- END SLIDER -->
+
+		</section>
+				
+				
 	</div>
 
 <?php get_footer(); ?>
