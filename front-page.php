@@ -106,20 +106,12 @@
 			</section>
 
 			<section id="proposal" class="cf">
-
-				<!-- PARALLAX Front -->
-				<!-- <div class="cheese-left-focused px-fore"></div>
-				<div class="cheese-left-blur px-base"></div>
-				<div class="cheese-right-focused px-fore"></div>
-				<div class="cheese-right-blur px-base"></div> -->
 				
 				<aside>
 					<h4>Got a project?</h4>
 					<p>We can help. Fill out this quick form. It’s like ad-libs but it actually gets you places.</p>
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
-					<!-- <a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
-					<a class="blue-btn-2" title="Read Something on Our Blog!" href="/index.php/blog">Blog</a> -->
 				</aside>
 
 				<aside>
@@ -127,38 +119,9 @@
                     <h4>Shoot us an email at <a href="mailto:sos@skymse.com" style="text-decoration: underline;">s.o.s.@skymse.com</a>, we'd love to hear from you.</h4>
 
 					<!-- <form>
-						<label>First Name</label>
-						<input type="text" name="First Name" placeholder="First Name" required="required">
-						<label>Last Name</label>
-						<input type="text" name="Last Name" placeholder="Last Name" required="required">
-						<label>Email Address</label>
-						<input type="email" name="Email Address" placeholder="Email Address" required="required">
-						<label>Tell us about yourself?</label>
-						<textarea name="Your Message Here" placeholder="What's going on?"></textarea>
-						<label>Subscribe to our Newsletter!</label>
-						<radio></radio>
-
-						<button name="submit" type="submit" value="submit">
-							<img src="<?php echo get_template_directory_uri();?>/library/images/sky-button.svg" alt="Let's Get Started!">
-						</button>
-
+					<?php get_template_part('library/partials/','contact'); ?>
 					</form> -->
-
-					<h4>We love you. Here's where we show it.</h4>
-					<div class="social-media">
-						<ul>
-							<li><a href="https://bit.ly/skyBook" class="social-icon"> <i class="fa fa-facebook"></i>
-							</a></li>
-							<li><a href="https://bit.ly/skyGram" class="social-icon"> <i class="fa fa-instagram"></i>
-							</a></li>
-							<li><a href="https://bit.ly/skyTweets" class="social-icon"> <i class="fa fa-twitter"></i>
-							</a></li>
-							<li><a href="https://bit.ly/skyLinkedIn" class="social-icon"> <i class="fa fa-linkedin"></i>
-							</a></li>
-							<li><a href="https://bit.ly/skyGoogle" class="social-icon"> <i class="fa fa-google-plus"></i>
-							</a></li>
-						</ul>
-						</div>
+					
 				</aside>
 			</section>
 		</div>
