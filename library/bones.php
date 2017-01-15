@@ -143,15 +143,11 @@ function bones_scripts_and_styles() {
 		//adding the CUSTOM scripts file in the footer
 		wp_register_script( 'sliderScript', get_stylesheet_directory_uri() . '/library/js/sliderScript.js', array( 'jquery' ), '', true );
 
-		// Google Maps API script for the contact page, added by PH
-		wp_register_script( 'googleMaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ1_opw7Tn6FXMt_rtFpIM5nRQAWxo1Mo&callback=initMap', array( 'jquery' ), '', true );
-
 		// Mailchimp pop-up subscribe form added by PH
 		wp_register_script( 'mailChimp', 'https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
 		// wp_enqueue_script( 'mailChimp' ); Disable this for now, it's annoying when it pops up
-		wp_enqueue_script( 'googleMaps' );
 		wp_enqueue_script( 'bones-modernizr' );
 		wp_enqueue_style( 'bones-stylesheet' );
 		wp_enqueue_style( 'bones-ie-only' );
