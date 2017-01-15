@@ -87,24 +87,9 @@
 				</aside>
 
                 <aside>
-                    <h3>What's Your Cheese?</h3>
-                    <h4>Shoot us an email at <a href="mailto:sos@skymse.com" style="text-decoration: underline;">s.o.s.@skymse.com</a>, we'd love to hear from you.</h4>
-
-                    <h4>We love you. Here's where we show it.</h4>
-                    <div class="social-media">
-                        <ul>
-                            <li><a href="https://bit.ly/skyBook" class="social-icon"> <i class="fa fa-facebook"></i>
-                            </a></li>
-                            <li><a href="https://bit.ly/skyGram" class="social-icon"> <i class="fa fa-instagram"></i>
-                            </a></li>
-                            <li><a href="https://bit.ly/skyTweets" class="social-icon"> <i class="fa fa-twitter"></i>
-                            </a></li>
-                            <li><a href="https://bit.ly/skyLinkedIn" class="social-icon"> <i class="fa fa-linkedin"></i>
-                            </a></li>
-                            <li><a href="https://bit.ly/skyGoogle" class="social-icon"> <i class="fa fa-google-plus"></i>
-                            </a></li>
-                        </ul>
-                        </div>
+                    
+                    <?php get_template_part('library/partials/contact'); ?>
+                    
                 </aside>
 
 			</section>
