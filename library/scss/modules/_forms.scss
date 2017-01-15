@@ -280,6 +280,11 @@ form#searchbar #searchbar-submit {
           min-width: 300px;
           text-align: left;
 
+          p {
+            margin: 0;
+            padding: 0;
+          }
+
           label {
           text-transform:uppercase;
           font-size: .8em;
@@ -295,6 +300,24 @@ form#searchbar #searchbar-submit {
 
           img:hover {
           }
+        }
+
+         .error{
+          padding: 5px 9px;
+          border: 1px solid red;
+          color: red;
+          border-radius: 3px;
+        }
+
+        .success{
+          padding: 5px 9px;
+          border: 1px solid green;
+          color: green;
+          border-radius: 3px;
+        }
+
+        form span{
+          color: $cheese;
         }
 }
 

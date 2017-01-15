@@ -1530,6 +1530,9 @@ form#searchbar #searchbar-submit {
     max-width: 480px;
     min-width: 300px;
     text-align: left; }
+    form p {
+      margin: 0;
+      padding: 0; }
     form label {
       text-transform: uppercase;
       font-size: .8em; }
@@ -1538,7 +1541,22 @@ form#searchbar #searchbar-submit {
       border-radius: 5px;
       margin: 5px auto;
       background-color: none;
-      -webkit-appearance: none; } }
+      -webkit-appearance: none; }
+
+  .error {
+    padding: 5px 9px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 3px; }
+
+  .success {
+    padding: 5px 9px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px; }
+
+  form span {
+    color: #FCD0A1; } }
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -3330,7 +3348,8 @@ main #main .main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
-  border-top: 20px solid #70C1DB; }
+  border-top: 20px solid #70C1DB;
+  background-image: url(../images/map-01.svg); }
   #page.contact section.parallax aside {
     z-index: 10;
     width: 100%;
