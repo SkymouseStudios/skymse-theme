@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
 	<div id="page" class="contact cf">
-		
-		<!-- MOTION PROJECTS -->
 		<section class="parallax">
 			<aside>
 				<div class="content">
@@ -17,12 +15,6 @@
 		</section>
 
 		<section id="proposal" class="cf">
-
-				<!-- PARALLAX Front -->
-				<!-- <div class="cheese-left-focused px-fore"></div>
-				<div class="cheese-left-blur px-base"></div>
-				<div class="cheese-right-focused px-fore"></div>
-				<div class="cheese-right-blur px-base"></div> -->
 				
 				<aside>
 					<p>If you have a project you’d like to talk about or want to get some ideas about how we can help you, 
@@ -30,8 +22,6 @@
 					
 					<img alt="Ready For lift-off!" src="<?php echo get_template_directory_uri(); ?>/library/images/blastoff-rocket.png">
 
-					<!-- <a class="blue-btn-2" title="Check Out Our Tutorials!" href="/index.php/tutorials">Tutorials</a>
-					<a class="blue-btn-2" title="Read Something on Our Blog!">Blog</a> -->
 				</aside>
 
                 <aside>
