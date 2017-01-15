@@ -20,6 +20,14 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+		<?php // Seo Suff ?>
+		<meta name="description" content="Skymouse Studios helps you tell stories, design better, and develop a brand people love.">
+		<meta property="og:title" content="Skymouse Studios" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://skymse.com" />
+		<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/screenshot.png" />
+
+
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
