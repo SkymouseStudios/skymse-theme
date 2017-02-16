@@ -246,6 +246,7 @@ h1 {
   font-family: $sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  text-shadow: 4px 3px 0 $lblue, 9px 8px 0 rgba(0,0,0,0.15);
 }
 
 h2 {
@@ -266,6 +267,7 @@ h3 {
   font-weight: 800;
   border-bottom: 13px solid white;
   display: inline-block;
+  text-shadow: 4px 3px 0 $lblue, 9px 8px 0 rgba(0,0,0,0.15);
 }
 
 
