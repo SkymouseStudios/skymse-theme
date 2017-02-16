@@ -116,9 +116,9 @@
 							</p>
 							<div class="social-media">
 								<ul>
-									<li><a href="<?php echo(types_render_field( "profile-twitter", array( 'raw' => false) )); ?>" class="social-icon"> <i class="fa fa-twitter"></i>
+									<li><a href="<?php echo(types_render_field( "profile-twitter", array( 'raw' => true) )); ?>" class="social-icon"> <i class="fa fa-twitter"></i>
 									</a></li>
-									<li><a href="<?php echo(types_render_field( "profile-linkedin", array( 'raw' => false) )); ?>" class="social-icon"> <i class="fa fa-linkedin"></i>
+									<li><a href="<?php echo(types_render_field( "profile-linkedin", array( 'raw' => true) )); ?>" class="social-icon"> <i class="fa fa-linkedin"></i>
 									</a></li>
 									</ul>
 							</div>
