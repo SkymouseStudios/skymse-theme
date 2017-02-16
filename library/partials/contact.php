@@ -78,7 +78,7 @@
 
     <input type="hidden" name="submitted" value="1">
 
-    <p><input type="submit"></p>
+   <input type="submit">
 
   </form>
 </div>
