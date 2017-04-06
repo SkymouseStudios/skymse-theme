@@ -19,7 +19,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<?php // Seo Suff ?>
-		<meta name="description" content="Skymouse Studios helps you tell stories, design better, and develop a brand people love.">
+		<meta name="description" content="Skymouse Studios helps you tell stories, design better, and develop a brand people love. From beautiful and speedy websites to slick motion graphics, we've gotcha covered.">
 		<meta property="og:title" content="Skymouse Studios" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://skymse.com" />
@@ -42,9 +42,28 @@
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
-
-		<?php // Google Analytics ?>
-		<?php include_once("library/partials/analyticstracking.php"); ?>
+		
+		<script type="application/ld+json">
+			{
+			  "@context": "http://schema.org",
+			  "@type": "Organization",
+			  "name": "Skymouse Studios",
+			  "url": "http://SkymouseStudios.com",
+			  "email": "info@skymse.com"
+			  "founders": [ "John Welch", "Patrick Hanus" ],
+			  "foundingDate": "2016-05-20",
+			  "logo": "<?php echo get_template_directory_uri(); ?>/library/images/skymse-logo-words-100.jpg",
+			  "sameAs": [
+			    "https://www.instagram.com/SkymouseStudios/",
+				"https://twitter.com/SkymouseStudios",
+				"https://soundcloud.com/skymousestudios",
+				"https://google.com/+SkymouseStudiosIndianapolis",
+				"https://www.linkedin.com/company/skymouse-studios-and-entertainment",
+				"https://www.facebook.com/Skymouse-Studios-1667422846889253",				
+				"https://www.youtube.com/channel/UCNaO9FKEx5GiagyapRpuehQ"
+			  ]
+			}
+		</script>
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">

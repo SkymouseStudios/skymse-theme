@@ -65,6 +65,7 @@
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
+		<?php include_once("library/partials/analyticstracking.php"); ?>
 
 	</body>
 
